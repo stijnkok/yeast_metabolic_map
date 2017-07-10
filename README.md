@@ -1,27 +1,38 @@
 About
 -----
-json ---> svg (editable) ---> svg (extra features)
+*json ---> svg (editable) ---> svg (extra features)*
+
 With this module one can take the json-file with the metabolic network layout info and make a pretty svg. See folder 'metabolic_maps' for examples. The svg can, if needed, be edited in Inkscape. The (edited) svg can then be turned into an svg-file with data on hover when viewed in a browser.
 
-json ---> graphml (editable) ---> svg (editable) ---> svg (extra features)
+*json ---> graphml (editable) ---> svg (editable) ---> svg (extra features)*
+
 If the graph in the json-file is not to your satisfaction to start with, one can also first turn the layout info from the json-file to a graphml-file, edit the graph, and turn the graphml-file into an svg.
 
 Use in command line:
 -------------------
-json_to_svg.py 		: Create an svg-file from the json output from Nicholas' module. This file is editable in an svg-editor such as Inkscape. Use json_to_svg.py --help for information on available flags.
-layout_final.py 	: Create an svg-file from the output svg-file of json_to_svg.py and/or graph_to_svg.py with annotations on hover that can be used with visualize.py. Use layout_final.py --help for information on available flags.
+**json_to_svg.py**
+Create an svg-file from the json output from Nicholas' module. This file is editable in an svg-editor such as Inkscape. Use json_to_svg.py --help for information on available flags.
+**layout_final.py**
+Create an svg-file from the output svg-file of json_to_svg.py and/or graph_to_svg.py with annotations on hover that can be used with visualize.py. Use layout_final.py --help for information on available flags.
 
-json_to_graphml.py 	: Create a graph-file (graphml) from the json output from Nicholas' module. This graph can be edited in a graph editor such as Gephi.
-graph_to_svg.py 	: Create an svg from a graph file. This file is editable in an svg-editor such as Inkscape.
-snap_to_grid.py 	: Change coordinates of nodes in graph file such that they are on a grid.
+**json_to_graphml.py**
+Create a graph-file (graphml) from the json output from Nicholas' module. This graph can be edited in a graph editor such as Gephi.
+**graph_to_svg.py**
+Create an svg from a graph file. This file is editable in an svg-editor such as Inkscape.
+**snap_to_grid.py**
+Change coordinates of nodes in graph file such that they are on a grid.
 
 Functions and classes:
 ---------------------
-readers.py 		: Contains functions for reading the json, xml and graphml files
-svg_paths.py		: Contains functions to make svg-paths (used in json_to_svg.py)
-svg_assembly.py		: Contains functions to assemble an svg-file (used in json_to_svg.py)
+**readers.py**
+Contains functions for reading the json, xml and graphml files
+**svg_paths.py**
+Contains functions to make svg-paths (used in json_to_svg.py)
+**svg_assembly.py**
+Contains functions to assemble an svg-file (used in json_to_svg.py)
 
-visualize.py 		: Contains classes for mapping FBA results from cbmpy to an svg graphical map of the metabolic network (as created by json_to_svg.py)
+**visualize.py**
+Contains classes for mapping FBA results from cbmpy to an svg graphical map of the metabolic network (as created by json_to_svg.py)
 
 Example
 -------
