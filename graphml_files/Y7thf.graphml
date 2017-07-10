@@ -1,0 +1,1617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<key attr.name="label" attr.type="string" for="node" id="label"/>
+<key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+<key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+<key attr.name="Edge Id" attr.type="string" for="edge" id="edgeid"/>
+<key attr.name="r" attr.type="int" for="node" id="r"/>
+<key attr.name="g" attr.type="int" for="node" id="g"/>
+<key attr.name="b" attr.type="int" for="node" id="b"/>
+<key attr.name="x" attr.type="float" for="node" id="x"/>
+<key attr.name="y" attr.type="float" for="node" id="y"/>
+<key attr.name="size" attr.type="float" for="node" id="size"/>
+<key attr.name="sLabel" attr.type="string" for="node" id="1"/>
+<key attr.name="color" attr.type="string" for="node" id="0"/>
+<key attr.name="Label" attr.type="string" for="node" id="2"/>
+<key attr.name="rLabel" attr.type="string" for="node" id="3"/>
+<key attr.name="Flux" attr.type="double" for="edge" id="4"/>
+<graph edgedefault="directed">
+<node id="s_1326r_0447">
+<data key="label">s_1326r_0447</data>
+<data key="1">phosphate</data>
+<data key="0">c10</data>
+<data key="2">phosphate</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">78.443855</data>
+<data key="y">185.92229</data>
+</node>
+<node id="s_1005">
+<data key="label">s_1005</data>
+<data key="1">L-glycine</data>
+<data key="0">c10</data>
+<data key="2">L-glycine</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-19.26978</data>
+<data key="y">79.72693</data>
+</node>
+<node id="s_1003">
+<data key="label">s_1003</data>
+<data key="1">L-glycine</data>
+<data key="0">c4</data>
+<data key="2">L-glycine</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-20.26928</data>
+<data key="y">-75.68934</data>
+</node>
+<node id="s_0321">
+<data key="label">s_0321</data>
+<data key="1">5-formyltetrahydrofolic acid</data>
+<data key="0">c10</data>
+<data key="2">5-formyltetrahydrofolic acid</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-96.79748</data>
+<data key="y">277.88235</data>
+</node>
+<node id="s_0322">
+<data key="label">s_0322</data>
+<data key="1">5-methyltetrahydrofolate</data>
+<data key="0">c4</data>
+<data key="2">5-methyltetrahydrofolate</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-175.52228</data>
+<data key="y">-133.68086</data>
+</node>
+<node id="r_0502">
+<data key="label">r_0502</data>
+<data key="0">reaction</data>
+<data key="2">glycine hydroxymethyltransferase</data>
+<data key="3">glycine hydroxymethyltransferase</data>
+<data key="size">4.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-7.8795815</data>
+<data key="y">-85.20682</data>
+</node>
+<node id="s_0460r_0501">
+<data key="label">s_0460r_0501</data>
+<data key="1">carbon dioxide</data>
+<data key="0">c10</data>
+<data key="2">carbon dioxide</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-90.79042</data>
+<data key="y">114.05386</data>
+</node>
+<node id="s_0394r_0084">
+<data key="label">s_0394r_0084</data>
+<data key="1">ADP</data>
+<data key="0">c4</data>
+<data key="2">ADP</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-72.82062</data>
+<data key="y">-240.70538</data>
+</node>
+<node id="s_0724">
+<data key="label">s_0724</data>
+<data key="1">formate</data>
+<data key="0">c10</data>
+<data key="2">formate</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">131.2555</data>
+<data key="y">125.24741</data>
+</node>
+<node id="r_0084">
+<data key="label">r_0084</data>
+<data key="0">reaction</data>
+<data key="2">5-formethyltetrahydrofolate cyclo-ligase</data>
+<data key="3">5-formethyltetrahydrofolate cyclo-ligase</data>
+<data key="size">4.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-51.828022</data>
+<data key="y">-230.37779</data>
+</node>
+<node id="r_0080">
+<data key="label">r_0080</data>
+<data key="0">reaction</data>
+<data key="2">5,10-methylenetetrahydrofolate reductase (NADPH)</data>
+<data key="3">5,10-methylenetetrahydrofolate reductase (NADPH)</data>
+<data key="size">4.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-178.29816</data>
+<data key="y">-117.66998</data>
+</node>
+<node id="s_1487">
+<data key="label">s_1487</data>
+<data key="1">THF</data>
+<data key="0">c4</data>
+<data key="2">THF</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">51.345695</data>
+<data key="y">-116.751526</data>
+</node>
+<node id="r_0345">
+<data key="label">r_0345</data>
+<data key="0">reaction</data>
+<data key="2">dihydrofolate reductase</data>
+<data key="3">dihydrofolate reductase</data>
+<data key="size">4.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">68.834595</data>
+<data key="y">76.30496</data>
+</node>
+<node id="s_0625">
+<data key="label">s_0625</data>
+<data key="1">dihydrofolic acid</data>
+<data key="0">c4</data>
+<data key="2">dihydrofolic acid</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">71.97141</data>
+<data key="y">-37.285736</data>
+</node>
+<node id="s_0434r_0446">
+<data key="label">s_0434r_0446</data>
+<data key="1">ATP</data>
+<data key="0">c4</data>
+<data key="2">ATP</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">111.33857</data>
+<data key="y">-145.93599</data>
+</node>
+<node id="r_0344">
+<data key="label">r_0344</data>
+<data key="0">reaction</data>
+<data key="2">dihydrofolate reductase</data>
+<data key="3">dihydrofolate reductase</data>
+<data key="size">4.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">72.252625</data>
+<data key="y">-76.577484</data>
+</node>
+<node id="s_0319">
+<data key="label">s_0319</data>
+<data key="1">5-formyltetrahydrofolic acid</data>
+<data key="0">c4</data>
+<data key="2">5-formyltetrahydrofolic acid</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-7.8313503</data>
+<data key="y">-240.503</data>
+</node>
+<node id="s_1322r_0446">
+<data key="label">s_1322r_0446</data>
+<data key="1">phosphate</data>
+<data key="0">c4</data>
+<data key="2">phosphate</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">91.73537</data>
+<data key="y">-181.96959</data>
+</node>
+<node id="s_0794r_0080">
+<data key="label">s_0794r_0080</data>
+<data key="1">H+</data>
+<data key="0">c4</data>
+<data key="2">H+</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-196.80261</data>
+<data key="y">-105.2041</data>
+</node>
+<node id="r_1045">
+<data key="label">r_1045</data>
+<data key="0">reaction</data>
+<data key="2">thymidylate synthase</data>
+<data key="3">thymidylate synthase</data>
+<data key="size">4.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-76.74823</data>
+<data key="y">-36.429703</data>
+</node>
+<node id="s_0654">
+<data key="label">s_0654</data>
+<data key="1">dUMP</data>
+<data key="0">c4</data>
+<data key="2">dUMP</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-102.06601</data>
+<data key="y">-46.90703</data>
+</node>
+<node id="r_0724">
+<data key="label">r_0724</data>
+<data key="0">reaction</data>
+<data key="2">methenyltetrahydrifikate cyclohydrolase</data>
+<data key="3">methenyltetrahydrifikate cyclohydrolase</data>
+<data key="size">4.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-32.804398</data>
+<data key="y">229.6302</data>
+</node>
+<node id="r_0725">
+<data key="label">r_0725</data>
+<data key="0">reaction</data>
+<data key="2">methenyltetrahydrofolate cyclohydrolase</data>
+<data key="3">methenyltetrahydrofolate cyclohydrolase</data>
+<data key="size">4.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-10.581028</data>
+<data key="y">-195.81044</data>
+</node>
+<node id="s_1203r_0445">
+<data key="label">s_1203r_0445</data>
+<data key="1">NADH</data>
+<data key="0">c4</data>
+<data key="2">NADH</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">201.38713</data>
+<data key="y">-104.62859</data>
+</node>
+<node id="s_1322r_0084">
+<data key="label">s_1322r_0084</data>
+<data key="1">phosphate</data>
+<data key="0">c4</data>
+<data key="2">phosphate</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-79.377365</data>
+<data key="y">-223.29608</data>
+</node>
+<node id="s_1214r_0345">
+<data key="label">s_1214r_0345</data>
+<data key="1">NADPH</data>
+<data key="0">c10</data>
+<data key="2">NADPH</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">88.15277</data>
+<data key="y">65.522095</data>
+</node>
+<node id="s_1212r_0080">
+<data key="label">s_1212r_0080</data>
+<data key="1">NADPH</data>
+<data key="0">c4</data>
+<data key="2">NADPH</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-195.46231</data>
+<data key="y">-133.48169</data>
+</node>
+<node id="s_0437r_1623">
+<data key="label">s_0437r_1623</data>
+<data key="1">ATP</data>
+<data key="0">c10</data>
+<data key="2">ATP</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-70.63976</data>
+<data key="y">232.04782</data>
+</node>
+<node id="s_0307">
+<data key="label">s_0307</data>
+<data key="1">5,10-methylenetetrahydrofolate</data>
+<data key="0">c10</data>
+<data key="2">5,10-methylenetetrahydrofolate</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-104.17343</data>
+<data key="y">128.96518</data>
+</node>
+<node id="s_0306">
+<data key="label">s_0306</data>
+<data key="1">5,10-methylenetetrahydrofolate</data>
+<data key="0">c4</data>
+<data key="2">5,10-methylenetetrahydrofolate</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-78.132286</data>
+<data key="y">-115.04242</data>
+</node>
+<node id="s_1203r_0731">
+<data key="label">s_1203r_0731</data>
+<data key="1">NADH</data>
+<data key="0">c4</data>
+<data key="2">NADH</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-61.683666</data>
+<data key="y">-166.9506</data>
+</node>
+<node id="s_0304">
+<data key="label">s_0304</data>
+<data key="1">5,10-methenyl-THF</data>
+<data key="0">c4</data>
+<data key="2">5,10-methenyl-THF</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-82.54726</data>
+<data key="y">-193.77455</data>
+</node>
+<node id="r_0732">
+<data key="label">r_0732</data>
+<data key="0">reaction</data>
+<data key="2">methylenetetrahydrofolate dehydrogenase (NADP)</data>
+<data key="3">methylenetetrahydrofolate dehydrogenase (NADP)</data>
+<data key="size">4.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-94.857</data>
+<data key="y">-157.98157</data>
+</node>
+<node id="s_0807r_1030">
+<data key="label">s_0807r_1030</data>
+<data key="1">H2O</data>
+<data key="0">c10</data>
+<data key="2">H2O</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-125.30233</data>
+<data key="y">234.41237</data>
+</node>
+<node id="s_0421r_0501">
+<data key="label">s_0421r_0501</data>
+<data key="1">ammonium</data>
+<data key="0">c10</data>
+<data key="2">ammonium</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-61.8341</data>
+<data key="y">114.31562</data>
+</node>
+<node id="r_0503">
+<data key="label">r_0503</data>
+<data key="0">reaction</data>
+<data key="2">glycine hydroxymethyltransferase</data>
+<data key="3">glycine hydroxymethyltransferase</data>
+<data key="size">4.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">1.0528069</data>
+<data key="y">97.35681</data>
+</node>
+<node id="s_0437r_0447">
+<data key="label">s_0437r_0447</data>
+<data key="1">ATP</data>
+<data key="0">c10</data>
+<data key="2">ATP</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">83.59019</data>
+<data key="y">170.63565</data>
+</node>
+<node id="s_0794r_0725">
+<data key="label">s_0794r_0725</data>
+<data key="1">H+</data>
+<data key="0">c4</data>
+<data key="2">H+</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">2.4938793</data>
+<data key="y">-183.02412</data>
+</node>
+<node id="r_0731">
+<data key="label">r_0731</data>
+<data key="0">reaction</data>
+<data key="2">methylenetetrahydrofolate dehydrogenase (NAD)</data>
+<data key="3">methylenetetrahydrofolate dehydrogenase (NAD)</data>
+<data key="size">4.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-81.50331</data>
+<data key="y">-157.8614</data>
+</node>
+<node id="s_0434r_1624">
+<data key="label">s_0434r_1624</data>
+<data key="1">ATP</data>
+<data key="0">c4</data>
+<data key="2">ATP</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">42.593586</data>
+<data key="y">-255.33636</data>
+</node>
+<node id="r_0733">
+<data key="label">r_0733</data>
+<data key="0">reaction</data>
+<data key="2">methylenetetrahydrofolate dehydrogenase (NADP)</data>
+<data key="3">methylenetetrahydrofolate dehydrogenase (NADP)</data>
+<data key="size">4.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-109.32779</data>
+<data key="y">172.06673</data>
+</node>
+<node id="s_1326r_1623">
+<data key="label">s_1326r_1623</data>
+<data key="1">phosphate</data>
+<data key="0">c10</data>
+<data key="2">phosphate</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-62.67025</data>
+<data key="y">245.39922</data>
+</node>
+<node id="r_1623">
+<data key="label">r_1623</data>
+<data key="0">reaction</data>
+<data key="2">5-formethyltetrahydrofolate cyclo-ligase</data>
+<data key="3">5-formethyltetrahydrofolate cyclo-ligase</data>
+<data key="size">4.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-80.71761</data>
+<data key="y">245.44583</data>
+</node>
+<node id="r_1624">
+<data key="label">r_1624</data>
+<data key="0">reaction</data>
+<data key="2">5-formyltetrahydrofolate:10-formyltetrahydrofolate isomerase</data>
+<data key="3">5-formyltetrahydrofolate:10-formyltetrahydrofolate isomerase</data>
+<data key="size">4.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">35.76362</data>
+<data key="y">-228.59921</data>
+</node>
+<node id="s_0794r_0344">
+<data key="label">s_0794r_0344</data>
+<data key="1">H+</data>
+<data key="0">c4</data>
+<data key="2">H+</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">55.469223</data>
+<data key="y">-59.867832</data>
+</node>
+<node id="s_1212r_0732">
+<data key="label">s_1212r_0732</data>
+<data key="1">NADPH</data>
+<data key="0">c4</data>
+<data key="2">NADPH</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-113.0468</data>
+<data key="y">-170.9561</data>
+</node>
+<node id="s_0799r_0345">
+<data key="label">s_0799r_0345</data>
+<data key="1">H+</data>
+<data key="0">c10</data>
+<data key="2">H+</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">55.38655</data>
+<data key="y">83.486755</data>
+</node>
+<node id="s_1207r_0732">
+<data key="label">s_1207r_0732</data>
+<data key="1">NADP(+)</data>
+<data key="0">c4</data>
+<data key="2">NADP(+)</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-112.229294</data>
+<data key="y">-150.7082</data>
+</node>
+<node id="s_1210r_0345">
+<data key="label">s_1210r_0345</data>
+<data key="1">NADP(+)</data>
+<data key="0">c10</data>
+<data key="2">NADP(+)</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">89.1819</data>
+<data key="y">91.06053</data>
+</node>
+<node id="s_1198r_0731">
+<data key="label">s_1198r_0731</data>
+<data key="1">NAD</data>
+<data key="0">c4</data>
+<data key="2">NAD</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-62.078407</data>
+<data key="y">-146.9543</data>
+</node>
+<node id="s_0807r_0503">
+<data key="label">s_0807r_0503</data>
+<data key="1">H2O</data>
+<data key="0">c10</data>
+<data key="2">H2O</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-9.704439</data>
+<data key="y">108.8072</data>
+</node>
+<node id="s_1042">
+<data key="label">s_1042</data>
+<data key="1">L-serine</data>
+<data key="0">c10</data>
+<data key="2">L-serine</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">20.343115</data>
+<data key="y">77.87479</data>
+</node>
+<node id="s_0397r_0447">
+<data key="label">s_0397r_0447</data>
+<data key="1">ADP</data>
+<data key="0">c10</data>
+<data key="2">ADP</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">71.29151</data>
+<data key="y">159.46985</data>
+</node>
+<node id="s_0803r_0725">
+<data key="label">s_0803r_0725</data>
+<data key="1">H2O</data>
+<data key="0">c4</data>
+<data key="2">H2O</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-23.777596</data>
+<data key="y">-184.5243</data>
+</node>
+<node id="r_0447">
+<data key="label">r_0447</data>
+<data key="0">reaction</data>
+<data key="2">formate-tetrahydrofolate ligase</data>
+<data key="3">formate-tetrahydrofolate ligase</data>
+<data key="size">4.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">65.95959</data>
+<data key="y">175.11719</data>
+</node>
+<node id="s_0799r_1030">
+<data key="label">s_0799r_1030</data>
+<data key="1">H+</data>
+<data key="0">c10</data>
+<data key="2">H+</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-125.412346</data>
+<data key="y">256.09894</data>
+</node>
+<node id="r_0446">
+<data key="label">r_0446</data>
+<data key="0">reaction</data>
+<data key="2">formate-tetrahydrofolate ligase</data>
+<data key="3">formate-tetrahydrofolate ligase</data>
+<data key="size">4.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">75.90713</data>
+<data key="y">-152.87709</data>
+</node>
+<node id="r_0445">
+<data key="label">r_0445</data>
+<data key="0">reaction</data>
+<data key="2">formate dehydrogenase</data>
+<data key="3">formate dehydrogenase</data>
+<data key="size">4.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">184.9624</data>
+<data key="y">-122.07147</data>
+</node>
+<node id="s_0649">
+<data key="label">s_0649</data>
+<data key="1">dTMP</data>
+<data key="0">c4</data>
+<data key="2">dTMP</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-102.87059</data>
+<data key="y">-26.368286</data>
+</node>
+<node id="s_1322r_1624">
+<data key="label">s_1322r_1624</data>
+<data key="1">phosphate</data>
+<data key="0">c4</data>
+<data key="2">phosphate</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">65.132454</data>
+<data key="y">-235.7544</data>
+</node>
+<node id="s_0799r_0724">
+<data key="label">s_0799r_0724</data>
+<data key="1">H+</data>
+<data key="0">c10</data>
+<data key="2">H+</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-22.510416</data>
+<data key="y">217.39854</data>
+</node>
+<node id="r_1743">
+<data key="label">r_1743</data>
+<data key="0">reaction</data>
+<data key="2">dihydrofolate transport</data>
+<data key="3">dihydrofolate transport</data>
+<data key="size">4.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">70.89016</data>
+<data key="y">5.42774</data>
+</node>
+<node id="r_1030">
+<data key="label">r_1030</data>
+<data key="0">reaction</data>
+<data key="2">tetrahydrofolate aminomethyltransferase</data>
+<data key="3">tetrahydrofolate aminomethyltransferase</data>
+<data key="size">4.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-108.640465</data>
+<data key="y">245.03683</data>
+</node>
+<node id="s_0397r_1623">
+<data key="label">s_0397r_1623</data>
+<data key="1">ADP</data>
+<data key="0">c10</data>
+<data key="2">ADP</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-70.69831</data>
+<data key="y">259.03308</data>
+</node>
+<node id="s_0722">
+<data key="label">s_0722</data>
+<data key="1">formate</data>
+<data key="0">c4</data>
+<data key="2">formate</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">127.85711</data>
+<data key="y">-120.288536</data>
+</node>
+<node id="r_2045">
+<data key="label">r_2045</data>
+<data key="0">reaction</data>
+<data key="2">serine transport</data>
+<data key="3">serine transport</data>
+<data key="size">4.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">20.926962</data>
+<data key="y">7.062031</data>
+</node>
+<node id="s_1207r_0080">
+<data key="label">s_1207r_0080</data>
+<data key="1">NADP(+)</data>
+<data key="0">c4</data>
+<data key="2">NADP(+)</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-197.09009</data>
+<data key="y">-120.82721</data>
+</node>
+<node id="s_0121">
+<data key="label">s_0121</data>
+<data key="1">10-formyl-THF</data>
+<data key="0">c10</data>
+<data key="2">10-formyl-THF</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">39.4386</data>
+<data key="y">210.20398</data>
+</node>
+<node id="s_0120">
+<data key="label">s_0120</data>
+<data key="1">10-formyl-THF</data>
+<data key="0">c4</data>
+<data key="2">10-formyl-THF</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">60.474205</data>
+<data key="y">-195.09628</data>
+</node>
+<node id="s_1039">
+<data key="label">s_1039</data>
+<data key="1">L-serine</data>
+<data key="0">c4</data>
+<data key="2">L-serine</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">21.767323</data>
+<data key="y">-75.43346</data>
+</node>
+<node id="s_1210r_0733">
+<data key="label">s_1210r_0733</data>
+<data key="1">NADP(+)</data>
+<data key="0">c10</data>
+<data key="2">NADP(+)</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-126.26407</data>
+<data key="y">163.09302</data>
+</node>
+<node id="r_0501">
+<data key="label">r_0501</data>
+<data key="0">reaction</data>
+<data key="2">glycine cleavage system</data>
+<data key="3">glycine cleavage system</data>
+<data key="size">4.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-43.534115</data>
+<data key="y">126.63651</data>
+</node>
+<node id="s_0434r_0084">
+<data key="label">s_0434r_0084</data>
+<data key="1">ATP</data>
+<data key="0">c4</data>
+<data key="2">ATP</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-56.707775</data>
+<data key="y">-248.19873</data>
+</node>
+<node id="s_0807r_0724">
+<data key="label">s_0807r_0724</data>
+<data key="1">H2O</data>
+<data key="0">c10</data>
+<data key="2">H2O</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-16.996012</data>
+<data key="y">232.41618</data>
+</node>
+<node id="s_1198r_0445">
+<data key="label">s_1198r_0445</data>
+<data key="1">NAD</data>
+<data key="0">c4</data>
+<data key="2">NAD</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">169.65018</data>
+<data key="y">-103.79072</data>
+</node>
+<node id="s_0394r_0446">
+<data key="label">s_0394r_0446</data>
+<data key="1">ADP</data>
+<data key="0">c4</data>
+<data key="2">ADP</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">101.06789</data>
+<data key="y">-172.44254</data>
+</node>
+<node id="s_0803r_1624">
+<data key="label">s_0803r_1624</data>
+<data key="1">H2O</data>
+<data key="0">c4</data>
+<data key="2">H2O</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">25.688086</data>
+<data key="y">-250.89787</data>
+</node>
+<node id="r_1794">
+<data key="label">r_1794</data>
+<data key="0">reaction</data>
+<data key="2">formate transport</data>
+<data key="3">formate transport</data>
+<data key="size">4.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">128.79803</data>
+<data key="y">5.639797</data>
+</node>
+<node id="r_1811">
+<data key="label">r_1811</data>
+<data key="0">reaction</data>
+<data key="2">glycine transport</data>
+<data key="3">glycine transport</data>
+<data key="size">4.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-18.651901</data>
+<data key="y">6.910692</data>
+</node>
+<node id="s_1214r_0733">
+<data key="label">s_1214r_0733</data>
+<data key="1">NADPH</data>
+<data key="0">c10</data>
+<data key="2">NADPH</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-129.60516</data>
+<data key="y">182.40547</data>
+</node>
+<node id="s_0305">
+<data key="label">s_0305</data>
+<data key="1">5,10-methenyl-THF</data>
+<data key="0">c10</data>
+<data key="2">5,10-methenyl-THF</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-92.48596</data>
+<data key="y">209.68517</data>
+</node>
+<node id="s_0626">
+<data key="label">s_0626</data>
+<data key="1">dihydrofolic acid</data>
+<data key="0">c10</data>
+<data key="2">dihydrofolic acid</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">67.142975</data>
+<data key="y">50.070843</data>
+</node>
+<node id="s_1488">
+<data key="label">s_1488</data>
+<data key="1">THF</data>
+<data key="0">c10</data>
+<data key="2">THF</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">44.580135</data>
+<data key="y">128.87631</data>
+</node>
+<node id="s_0803r_0502">
+<data key="label">s_0803r_0502</data>
+<data key="1">H2O</data>
+<data key="0">c4</data>
+<data key="2">H2O</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-23.025282</data>
+<data key="y">-101.57955</data>
+</node>
+<node id="s_0794r_1624">
+<data key="label">s_0794r_1624</data>
+<data key="1">H+</data>
+<data key="0">c4</data>
+<data key="2">H+</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">64.36373</data>
+<data key="y">-205.75111</data>
+</node>
+<node id="s_0456r_0445">
+<data key="label">s_0456r_0445</data>
+<data key="1">carbon dioxide</data>
+<data key="0">c4</data>
+<data key="2">carbon dioxide</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">236.87158</data>
+<data key="y">-122.52948</data>
+</node>
+<node id="s_1207r_0344">
+<data key="label">s_1207r_0344</data>
+<data key="1">NADP(+)</data>
+<data key="0">c4</data>
+<data key="2">NADP(+)</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">90.13148</data>
+<data key="y">-90.3109</data>
+</node>
+<node id="s_0394r_1624">
+<data key="label">s_0394r_1624</data>
+<data key="1">ADP</data>
+<data key="0">c4</data>
+<data key="2">ADP</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">67.08222</data>
+<data key="y">-224.01057</data>
+</node>
+<node id="s_1212r_0344">
+<data key="label">s_1212r_0344</data>
+<data key="1">NADPH</data>
+<data key="0">c4</data>
+<data key="2">NADPH</data>
+<data key="size">4.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">88.54609</data>
+<data key="y">-58.319614</data>
+</node>
+<node id="s_1200r_0501">
+<data key="label">s_1200r_0501</data>
+<data key="1">NAD</data>
+<data key="0">c10</data>
+<data key="2">NAD</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-30.423357</data>
+<data key="y">142.43518</data>
+</node>
+<node id="s_1205r_0501">
+<data key="label">s_1205r_0501</data>
+<data key="1">NADH</data>
+<data key="0">c10</data>
+<data key="2">NADH</data>
+<data key="size">4.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-64.45051</data>
+<data key="y">141.94696</data>
+</node>
+<edge source="s_1326r_0447" target="r_0447">
+<data key="edgeid">0</data>
+<data key="weight">1.0</data>
+<data key="4">0.082958137681</data>
+</edge>
+<edge source="s_1005" target="r_0501">
+<data key="edgeid">1</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="s_1003" target="r_1811">
+<data key="edgeid">2</data>
+<data key="weight">1.0</data>
+<data key="4">0.082958137681</data>
+</edge>
+<edge source="s_0321" target="r_1623">
+<data key="edgeid">3</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="r_0502" target="s_0803r_0502">
+<data key="edgeid">4</data>
+<data key="weight">1.0</data>
+<data key="4">0.112893332966</data>
+</edge>
+<edge source="r_0502" target="s_1003">
+<data key="edgeid">5</data>
+<data key="weight">1.0</data>
+<data key="4">0.112893332966</data>
+</edge>
+<edge source="r_0502" target="s_0306">
+<data key="edgeid">6</data>
+<data key="weight">1.0</data>
+<data key="4">0.112893332966</data>
+</edge>
+<edge source="s_0724" target="r_1794">
+<data key="edgeid">7</data>
+<data key="weight">1.0</data>
+<data key="4">0.082958137681</data>
+</edge>
+<edge source="r_0084" target="s_0394r_0084">
+<data key="edgeid">8</data>
+<data key="weight">1.0</data>
+<data key="4">1.12757025938E-17</data>
+</edge>
+<edge source="r_0084" target="s_1322r_0084">
+<data key="edgeid">9</data>
+<data key="weight">1.0</data>
+<data key="4">1.12757025938E-17</data>
+</edge>
+<edge source="r_0084" target="s_0304">
+<data key="edgeid">10</data>
+<data key="weight">1.0</data>
+<data key="4">1.12757025938E-17</data>
+</edge>
+<edge source="r_0080" target="s_1207r_0080">
+<data key="edgeid">11</data>
+<data key="weight">1.0</data>
+<data key="4">0.00508058052537</data>
+</edge>
+<edge source="r_0080" target="s_0322">
+<data key="edgeid">12</data>
+<data key="weight">1.0</data>
+<data key="4">0.00508058052537</data>
+</edge>
+<edge source="s_1487" target="r_0502">
+<data key="edgeid">13</data>
+<data key="weight">1.0</data>
+<data key="4">0.112893332966</data>
+</edge>
+<edge source="r_0345" target="s_1488">
+<data key="edgeid">14</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="r_0345" target="s_1210r_0345">
+<data key="edgeid">15</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="s_0625" target="r_1743">
+<data key="edgeid">16</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="s_0625" target="r_0344">
+<data key="edgeid">17</data>
+<data key="weight">1.0</data>
+<data key="4">2.76757757068E-4</data>
+</edge>
+<edge source="r_0344" target="s_1207r_0344">
+<data key="edgeid">18</data>
+<data key="weight">1.0</data>
+<data key="4">2.76757757068E-4</data>
+</edge>
+<edge source="r_0344" target="s_1487">
+<data key="edgeid">19</data>
+<data key="weight">1.0</data>
+<data key="4">2.76757757068E-4</data>
+</edge>
+<edge source="s_0319" target="r_0084">
+<data key="edgeid">20</data>
+<data key="weight">1.0</data>
+<data key="4">1.12757025938E-17</data>
+</edge>
+<edge source="s_0319" target="r_1624">
+<data key="edgeid">21</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="s_1322r_0446" target="r_0446">
+<data key="edgeid">22</data>
+<data key="weight">1.0</data>
+<data key="4">0.0872189002282</data>
+</edge>
+<edge source="s_0794r_0080" target="r_0080">
+<data key="edgeid">23</data>
+<data key="weight">1.0</data>
+<data key="4">0.00508058052537</data>
+</edge>
+<edge source="r_1045" target="s_0649">
+<data key="edgeid">24</data>
+<data key="weight">1.0</data>
+<data key="4">2.76757757068E-4</data>
+</edge>
+<edge source="r_1045" target="s_0625">
+<data key="edgeid">25</data>
+<data key="weight">1.0</data>
+<data key="4">2.76757757068E-4</data>
+</edge>
+<edge source="s_0654" target="r_1045">
+<data key="edgeid">26</data>
+<data key="weight">1.0</data>
+<data key="4">2.76757757068E-4</data>
+</edge>
+<edge source="r_0724" target="s_0121">
+<data key="edgeid">27</data>
+<data key="weight">1.0</data>
+<data key="4">0.082958137681</data>
+</edge>
+<edge source="r_0724" target="s_0799r_0724">
+<data key="edgeid">28</data>
+<data key="weight">1.0</data>
+<data key="4">0.082958137681</data>
+</edge>
+<edge source="r_0725" target="s_0120">
+<data key="edgeid">29</data>
+<data key="weight">1.0</data>
+<data key="4">0.107535994683</data>
+</edge>
+<edge source="r_0725" target="s_0794r_0725">
+<data key="edgeid">30</data>
+<data key="weight">1.0</data>
+<data key="4">0.107535994683</data>
+</edge>
+<edge source="s_1214r_0345" target="r_0345">
+<data key="edgeid">31</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="s_1212r_0080" target="r_0080">
+<data key="edgeid">32</data>
+<data key="weight">1.0</data>
+<data key="4">0.00508058052537</data>
+</edge>
+<edge source="s_0437r_1623" target="r_1623">
+<data key="edgeid">33</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="s_0307" target="r_0733">
+<data key="edgeid">34</data>
+<data key="weight">1.0</data>
+<data key="4">0.082958137681</data>
+</edge>
+<edge source="s_0306" target="r_1045">
+<data key="edgeid">35</data>
+<data key="weight">1.0</data>
+<data key="4">2.76757757068E-4</data>
+</edge>
+<edge source="s_0306" target="r_0732">
+<data key="edgeid">36</data>
+<data key="weight">1.0</data>
+<data key="4">0.107535994683</data>
+</edge>
+<edge source="s_0306" target="r_0731">
+<data key="edgeid">37</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="s_0306" target="r_0080">
+<data key="edgeid">38</data>
+<data key="weight">1.0</data>
+<data key="4">0.00508058052537</data>
+</edge>
+<edge source="s_0304" target="r_0725">
+<data key="edgeid">39</data>
+<data key="weight">1.0</data>
+<data key="4">0.107535994683</data>
+</edge>
+<edge source="r_0732" target="s_1212r_0732">
+<data key="edgeid">40</data>
+<data key="weight">1.0</data>
+<data key="4">0.107535994683</data>
+</edge>
+<edge source="r_0732" target="s_0304">
+<data key="edgeid">41</data>
+<data key="weight">1.0</data>
+<data key="4">0.107535994683</data>
+</edge>
+<edge source="s_0807r_1030" target="r_1030">
+<data key="edgeid">42</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="r_0503" target="s_1005">
+<data key="edgeid">43</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="r_0503" target="s_0307">
+<data key="edgeid">44</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="r_0503" target="s_0807r_0503">
+<data key="edgeid">45</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="r_0731" target="s_1203r_0731">
+<data key="edgeid">46</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="r_0731" target="s_0304">
+<data key="edgeid">47</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="s_0434r_1624" target="r_1624">
+<data key="edgeid">48</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="r_0733" target="s_1214r_0733">
+<data key="edgeid">49</data>
+<data key="weight">1.0</data>
+<data key="4">0.082958137681</data>
+</edge>
+<edge source="r_0733" target="s_0305">
+<data key="edgeid">50</data>
+<data key="weight">1.0</data>
+<data key="4">0.082958137681</data>
+</edge>
+<edge source="r_1623" target="s_0397r_1623">
+<data key="edgeid">51</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="r_1623" target="s_0305">
+<data key="edgeid">52</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="r_1623" target="s_1326r_1623">
+<data key="edgeid">53</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="r_1624" target="s_0794r_1624">
+<data key="edgeid">54</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="r_1624" target="s_1322r_1624">
+<data key="edgeid">55</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="r_1624" target="s_0120">
+<data key="edgeid">56</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="r_1624" target="s_0394r_1624">
+<data key="edgeid">57</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="s_0794r_0344" target="r_0344">
+<data key="edgeid">58</data>
+<data key="weight">1.0</data>
+<data key="4">2.76757757068E-4</data>
+</edge>
+<edge source="s_0799r_0345" target="r_0345">
+<data key="edgeid">59</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="s_1207r_0732" target="r_0732">
+<data key="edgeid">60</data>
+<data key="weight">1.0</data>
+<data key="4">0.107535994683</data>
+</edge>
+<edge source="s_1198r_0731" target="r_0731">
+<data key="edgeid">61</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="s_1042" target="r_0503">
+<data key="edgeid">62</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="s_0397r_0447" target="r_0447">
+<data key="edgeid">63</data>
+<data key="weight">1.0</data>
+<data key="4">0.082958137681</data>
+</edge>
+<edge source="s_0803r_0725" target="r_0725">
+<data key="edgeid">64</data>
+<data key="weight">1.0</data>
+<data key="4">0.107535994683</data>
+</edge>
+<edge source="r_0447" target="s_0724">
+<data key="edgeid">65</data>
+<data key="weight">1.0</data>
+<data key="4">0.082958137681</data>
+</edge>
+<edge source="r_0447" target="s_0437r_0447">
+<data key="edgeid">66</data>
+<data key="weight">1.0</data>
+<data key="4">0.082958137681</data>
+</edge>
+<edge source="r_0447" target="s_1488">
+<data key="edgeid">67</data>
+<data key="weight">1.0</data>
+<data key="4">0.082958137681</data>
+</edge>
+<edge source="r_0446" target="s_1487">
+<data key="edgeid">68</data>
+<data key="weight">1.0</data>
+<data key="4">0.0872189002282</data>
+</edge>
+<edge source="r_0446" target="s_0434r_0446">
+<data key="edgeid">69</data>
+<data key="weight">1.0</data>
+<data key="4">0.0872189002282</data>
+</edge>
+<edge source="r_0446" target="s_0722">
+<data key="edgeid">70</data>
+<data key="weight">1.0</data>
+<data key="4">0.0872189002282</data>
+</edge>
+<edge source="r_0445" target="s_1203r_0445">
+<data key="edgeid">71</data>
+<data key="weight">1.0</data>
+<data key="4">0.1709295115</data>
+</edge>
+<edge source="r_0445" target="s_0456r_0445">
+<data key="edgeid">72</data>
+<data key="weight">1.0</data>
+<data key="4">0.1709295115</data>
+</edge>
+<edge source="r_1743" target="s_0626">
+<data key="edgeid">73</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="r_1030" target="s_0321">
+<data key="edgeid">74</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="r_1030" target="s_0799r_1030">
+<data key="edgeid">75</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="s_0722" target="r_0445">
+<data key="edgeid">76</data>
+<data key="weight">1.0</data>
+<data key="4">0.1709295115</data>
+</edge>
+<edge source="r_2045" target="s_1042">
+<data key="edgeid">77</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="s_0121" target="r_0447">
+<data key="edgeid">78</data>
+<data key="weight">1.0</data>
+<data key="4">0.082958137681</data>
+</edge>
+<edge source="s_0120" target="r_0446">
+<data key="edgeid">79</data>
+<data key="weight">1.0</data>
+<data key="4">0.0872189002282</data>
+</edge>
+<edge source="s_1039" target="r_0502">
+<data key="edgeid">80</data>
+<data key="weight">1.0</data>
+<data key="4">0.112893332966</data>
+</edge>
+<edge source="s_1039" target="r_2045">
+<data key="edgeid">81</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="s_1210r_0733" target="r_0733">
+<data key="edgeid">82</data>
+<data key="weight">1.0</data>
+<data key="4">0.082958137681</data>
+</edge>
+<edge source="r_0501" target="s_0421r_0501">
+<data key="edgeid">83</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="r_0501" target="s_0460r_0501">
+<data key="edgeid">84</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="r_0501" target="s_0307">
+<data key="edgeid">85</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="r_0501" target="s_1205r_0501">
+<data key="edgeid">86</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="s_0434r_0084" target="r_0084">
+<data key="edgeid">87</data>
+<data key="weight">1.0</data>
+<data key="4">1.12757025938E-17</data>
+</edge>
+<edge source="s_0807r_0724" target="r_0724">
+<data key="edgeid">88</data>
+<data key="weight">1.0</data>
+<data key="4">0.082958137681</data>
+</edge>
+<edge source="s_1198r_0445" target="r_0445">
+<data key="edgeid">89</data>
+<data key="weight">1.0</data>
+<data key="4">0.1709295115</data>
+</edge>
+<edge source="s_0394r_0446" target="r_0446">
+<data key="edgeid">90</data>
+<data key="weight">1.0</data>
+<data key="4">0.0872189002282</data>
+</edge>
+<edge source="s_0803r_1624" target="r_1624">
+<data key="edgeid">91</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="r_1794" target="s_0722">
+<data key="edgeid">92</data>
+<data key="weight">1.0</data>
+<data key="4">0.082958137681</data>
+</edge>
+<edge source="r_1811" target="s_1005">
+<data key="edgeid">93</data>
+<data key="weight">1.0</data>
+<data key="4">0.082958137681</data>
+</edge>
+<edge source="s_0305" target="r_0724">
+<data key="edgeid">94</data>
+<data key="weight">1.0</data>
+<data key="4">0.082958137681</data>
+</edge>
+<edge source="s_0305" target="r_1030">
+<data key="edgeid">95</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="s_0626" target="r_0345">
+<data key="edgeid">96</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="s_1488" target="r_0503">
+<data key="edgeid">97</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="s_1488" target="r_0501">
+<data key="edgeid">98</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+<edge source="s_1212r_0344" target="r_0344">
+<data key="edgeid">99</data>
+<data key="weight">1.0</data>
+<data key="4">2.76757757068E-4</data>
+</edge>
+<edge source="s_1200r_0501" target="r_0501">
+<data key="edgeid">100</data>
+<data key="weight">1.0</data>
+<data key="4">0.0</data>
+</edge>
+</graph>
+</graphml>

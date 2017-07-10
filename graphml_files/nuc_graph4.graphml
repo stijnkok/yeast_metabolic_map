@@ -1,0 +1,900 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="label" attr.type="string" for="node" id="d3" />
+  <key attr.name="size" attr.type="double" for="node" id="d2" />
+  <key attr.name="x" attr.type="double" for="node" id="d1" />
+  <key attr.name="y" attr.type="double" for="node" id="d0" />
+  <graph edgedefault="directed">
+    <node id="24">
+      <data key="d0">-2640.0</data>
+      <data key="d1">-2070.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">5-amino-6-(5-phosphoribitylamino)uracil [cytoplasm]</data>
+    </node>
+    <node id="25">
+      <data key="d0">-2880.0</data>
+      <data key="d1">-3270.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">3,4-dihydroxy-2-butanone-4-phosphate synthase</data>
+    </node>
+    <node id="26">
+      <data key="d0">1980.0</data>
+      <data key="d1">-390.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">5'-phosphoribosyl-N-formylglycineamidine [cytoplasm]</data>
+    </node>
+    <node id="27">
+      <data key="d0">-660.0</data>
+      <data key="d1">1680.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">deoxyguanylate kinase (dGMP:ATP)</data>
+    </node>
+    <node id="20">
+      <data key="d0">360.0</data>
+      <data key="d1">-1890.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">phosphoribosyl-formamido-carboxamide [cytoplasm]</data>
+    </node>
+    <node id="21">
+      <data key="d0">-3390.0</data>
+      <data key="d1">660.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">dCMP [cytoplasm]</data>
+    </node>
+    <node id="22">
+      <data key="d0">-270.0</data>
+      <data key="d1">2970.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">UTP [cytoplasm]</data>
+    </node>
+    <node id="23">
+      <data key="d0">-660.0</data>
+      <data key="d1">1230.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">dGDP [cytoplasm]</data>
+    </node>
+    <node id="28">
+      <data key="d0">1650.0</data>
+      <data key="d1">2100.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">orotate [cytoplasm]</data>
+    </node>
+    <node id="29">
+      <data key="d0">1350.0</data>
+      <data key="d1">-390.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">5'-phosphoribosyl-4-(N-succinocarboxamide)-5-aminoimidazole [cytoplasm]</data>
+    </node>
+    <node id="hn0('4', '13')">
+      <data key="d0">1650.0</data>
+      <data key="d1">240.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="0">
+      <data key="d0">-270.0</data>
+      <data key="d1">-1470.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">IMP dehydrogenase</data>
+    </node>
+    <node id="4">
+      <data key="d0">1650.0</data>
+      <data key="d1">-30.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">phosphoribosyl amino imidazolesuccinocarbozamide synthetase</data>
+    </node>
+    <node id="8">
+      <data key="d0">3420.0</data>
+      <data key="d1">-1410.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">L-glutamine [cytoplasm]</data>
+    </node>
+    <node id="hn0('12', '22')">
+      <data key="d0">-1620.0</data>
+      <data key="d1">2760.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="hn1('4', '13')">
+      <data key="d0">1320.0</data>
+      <data key="d1">480.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="hn0('77', '61')">
+      <data key="d0">1320.0</data>
+      <data key="d1">-1350.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="hn0('87', '28')">
+      <data key="d0">3150.0</data>
+      <data key="d1">2550.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="hn1('87', '28')">
+      <data key="d0">1650.0</data>
+      <data key="d1">2400.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="59">
+      <data key="d0">-660.0</data>
+      <data key="d1">3210.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">CTP synthase (NH3)</data>
+    </node>
+    <node id="58">
+      <data key="d0">-1620.0</data>
+      <data key="d1">3210.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">CDP [cytoplasm]</data>
+    </node>
+    <node id="55">
+      <data key="d0">1650.0</data>
+      <data key="d1">630.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">carbamoyl phosphate [cytoplasm]</data>
+    </node>
+    <node id="54">
+      <data key="d0">-2730.0</data>
+      <data key="d1">660.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">dUMP [cytoplasm]</data>
+    </node>
+    <node id="57">
+      <data key="d0">1350.0</data>
+      <data key="d1">1230.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">dihydroorotase</data>
+    </node>
+    <node id="56">
+      <data key="d0">1110.0</data>
+      <data key="d1">870.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">aspartate carbamoyltransferase</data>
+    </node>
+    <node id="51">
+      <data key="d0">-2220.0</data>
+      <data key="d1">3210.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">CMP [cytoplasm]</data>
+    </node>
+    <node id="50">
+      <data key="d0">390.0</data>
+      <data key="d1">1230.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">fumarate [cytoplasm]</data>
+    </node>
+    <node id="53">
+      <data key="d0">-3780.0</data>
+      <data key="d1">-2760.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">6,7-dimethyl-8-(1-D-ribityl)lumazine [cytoplasm]</data>
+    </node>
+    <node id="52">
+      <data key="d0">2370.0</data>
+      <data key="d1">-1950.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">5-phosphoribosylamine [cytoplasm]</data>
+    </node>
+    <node id="88">
+      <data key="d0">0.0</data>
+      <data key="d1">2970.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">nucleoside-diphosphate kinase (ATP:UDP)</data>
+    </node>
+    <node id="89">
+      <data key="d0">1350.0</data>
+      <data key="d1">1710.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">Fumarate dependent DHORD</data>
+    </node>
+    <node id="82">
+      <data key="d0">-2460.0</data>
+      <data key="d1">660.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">dUTP diphosphatase</data>
+    </node>
+    <node id="83">
+      <data key="d0">1980.0</data>
+      <data key="d1">-870.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">5'-phosphoribosylformyl glycinamidine synthetase</data>
+    </node>
+    <node id="80">
+      <data key="d0">-1950.0</data>
+      <data key="d1">3210.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">nucleoside diphosphatase</data>
+    </node>
+    <node id="81">
+      <data key="d0">-2730.0</data>
+      <data key="d1">60.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">dAMP [cytoplasm]</data>
+    </node>
+    <node id="86">
+      <data key="d0">1350.0</data>
+      <data key="d1">2970.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">orotidine-5'-phosphate decarboxylase</data>
+    </node>
+    <node id="87">
+      <data key="d0">3150.0</data>
+      <data key="d1">2730.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">orotate phosphoribosyltransferase</data>
+    </node>
+    <node id="84">
+      <data key="d0">-1050.0</data>
+      <data key="d1">-180.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">nucleoside diphosphate kinase</data>
+    </node>
+    <node id="85">
+      <data key="d0">690.0</data>
+      <data key="d1">-1560.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">phosphoribosylaminoimidazolecarboxamide formyltransferase</data>
+    </node>
+    <node id="3">
+      <data key="d0">-2310.0</data>
+      <data key="d1">-2070.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">2,5-diamino-6-ribitylamino-4(3H)-pyrimidinone 5'-phosphate deaminase</data>
+    </node>
+    <node id="hn1('63', '70')">
+      <data key="d0">-1350.0</data>
+      <data key="d1">90.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="7">
+      <data key="d0">-660.0</data>
+      <data key="d1">2100.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">dGMP [cytoplasm]</data>
+    </node>
+    <node id="hn1('30', '13')">
+      <data key="d0">360.0</data>
+      <data key="d1">-390.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="39">
+      <data key="d0">2610.0</data>
+      <data key="d1">900.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">carbamoyl-phosphate synthase (glutamine-hydrolysing)</data>
+    </node>
+    <node id="38">
+      <data key="d0">30.0</data>
+      <data key="d1">270.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">adenylo-succinate [cytoplasm]</data>
+    </node>
+    <node id="hn0('94', '8')">
+      <data key="d0">0.0</data>
+      <data key="d1">-2310.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="33">
+      <data key="d0">1110.0</data>
+      <data key="d1">1230.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">N-carbamoyl-L-aspartate [cytoplasm]</data>
+    </node>
+    <node id="32">
+      <data key="d0">2310.0</data>
+      <data key="d1">-390.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">phopshoribosylaminoimidazole synthetase</data>
+    </node>
+    <node id="31">
+      <data key="d0">-2190.0</data>
+      <data key="d1">60.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">dADP [cytoplasm]</data>
+    </node>
+    <node id="30">
+      <data key="d0">-270.0</data>
+      <data key="d1">-120.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">adenylosuccinate synthase</data>
+    </node>
+    <node id="37">
+      <data key="d0">-1320.0</data>
+      <data key="d1">660.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">thioredoxin reductase (NADPH)</data>
+    </node>
+    <node id="36">
+      <data key="d0">-1050.0</data>
+      <data key="d1">-2790.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">formate [cytoplasm]</data>
+    </node>
+    <node id="35">
+      <data key="d0">-2880.0</data>
+      <data key="d1">-3720.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">D-ribulose 5-phosphate [cytoplasm]</data>
+    </node>
+    <node id="34">
+      <data key="d0">1650.0</data>
+      <data key="d1">-1140.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">5'-phosphoribosyl-N-formylglycineamide [cytoplasm]</data>
+    </node>
+    <node id="hn0('72', '69')">
+      <data key="d0">-1050.0</data>
+      <data key="d1">390.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="hn1('94', '8')">
+      <data key="d0">2970.0</data>
+      <data key="d1">-2310.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="hn0('30', '13')">
+      <data key="d0">-30.0</data>
+      <data key="d1">-390.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="hn0('98', '50')">
+      <data key="d0">360.0</data>
+      <data key="d1">-30.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="hn1('12', '22')">
+      <data key="d0">-660.0</data>
+      <data key="d1">2790.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="hn1('12', '70')">
+      <data key="d0">-1320.0</data>
+      <data key="d1">1290.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="60">
+      <data key="d0">2910.0</data>
+      <data key="d1">1230.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">bicarbonate [cytoplasm]</data>
+    </node>
+    <node id="61">
+      <data key="d0">960.0</data>
+      <data key="d1">-1350.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">THF [cytoplasm]</data>
+    </node>
+    <node id="62">
+      <data key="d0">690.0</data>
+      <data key="d1">-810.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">AICAR [cytoplasm]</data>
+    </node>
+    <node id="63">
+      <data key="d0">-1950.0</data>
+      <data key="d1">360.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">ribonucleotide reductase</data>
+    </node>
+    <node id="64">
+      <data key="d0">2010.0</data>
+      <data key="d1">-1950.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">phosphoribosylglycinamidine synthetase</data>
+    </node>
+    <node id="65">
+      <data key="d0">2310.0</data>
+      <data key="d1">1590.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">ubiquinone-6 [mitochondrion]</data>
+    </node>
+    <node id="66">
+      <data key="d0">390.0</data>
+      <data key="d1">2970.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">UDP [cytoplasm]</data>
+    </node>
+    <node id="67">
+      <data key="d0">1050.0</data>
+      <data key="d1">2970.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">UMP [cytoplasm]</data>
+    </node>
+    <node id="68">
+      <data key="d0">30.0</data>
+      <data key="d1">-1830.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">xanthosine-5-phosphate [cytoplasm]</data>
+    </node>
+    <node id="69">
+      <data key="d0">-1650.0</data>
+      <data key="d1">660.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">TRX1 [cytoplasm]</data>
+    </node>
+    <node id="hn0('97', '41')">
+      <data key="d0">-3210.0</data>
+      <data key="d1">-2850.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="2">
+      <data key="d0">-3780.0</data>
+      <data key="d1">-1710.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">riboflavin [cytoplasm]</data>
+    </node>
+    <node id="6">
+      <data key="d0">2370.0</data>
+      <data key="d1">-1560.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">L-glycine [cytoplasm]</data>
+    </node>
+    <node id="hn0('63', '70')">
+      <data key="d0">-1680.0</data>
+      <data key="d1">90.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="99">
+      <data key="d0">2670.0</data>
+      <data key="d1">-1950.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">phosphoribosylpyrophosphate amidotransferase</data>
+    </node>
+    <node id="98">
+      <data key="d0">960.0</data>
+      <data key="d1">-390.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">adenylosuccinate lyase</data>
+    </node>
+    <node id="hn0('91', '44')">
+      <data key="d0">-3510.0</data>
+      <data key="d1">-2070.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="91">
+      <data key="d0">-3780.0</data>
+      <data key="d1">-2340.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">riboflavin synthase</data>
+    </node>
+    <node id="90">
+      <data key="d0">3870.0</data>
+      <data key="d1">-2610.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">phosphoribosylpyrophosphate synthetase</data>
+    </node>
+    <node id="93">
+      <data key="d0">-990.0</data>
+      <data key="d1">3210.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">CTP [cytoplasm]</data>
+    </node>
+    <node id="92">
+      <data key="d0">-1410.0</data>
+      <data key="d1">-2070.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">2,5-diamino-4-hydroxy-6-(5-phosphoribosylamino)pyrimidine [cytoplasm]</data>
+    </node>
+    <node id="95">
+      <data key="d0">1950.0</data>
+      <data key="d1">1800.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">dihydoorotic acid (ubiquinone-6)</data>
+    </node>
+    <node id="94">
+      <data key="d0">-270.0</data>
+      <data key="d1">-2070.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">GMP synthase</data>
+    </node>
+    <node id="97">
+      <data key="d0">-3510.0</data>
+      <data key="d1">-2760.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">riboflavin synthase</data>
+    </node>
+    <node id="96">
+      <data key="d0">-1050.0</data>
+      <data key="d1">-1410.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">GTP cyclohydrolase II</data>
+    </node>
+    <node id="11">
+      <data key="d0">-270.0</data>
+      <data key="d1">-810.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">IMP [cytoplasm]</data>
+    </node>
+    <node id="10">
+      <data key="d0">360.0</data>
+      <data key="d1">-1140.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">inosine monophosphate cyclohydrolase</data>
+    </node>
+    <node id="13">
+      <data key="d0">720.0</data>
+      <data key="d1">480.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">L-aspartate [cytoplasm]</data>
+    </node>
+    <node id="12">
+      <data key="d0">-1950.0</data>
+      <data key="d1">990.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">ribonucleoside-triphosphate reductase (UTP)</data>
+    </node>
+    <node id="15">
+      <data key="d0">-1050.0</data>
+      <data key="d1">-810.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">GTP [cytoplasm]</data>
+    </node>
+    <node id="14">
+      <data key="d0">1110.0</data>
+      <data key="d1">2100.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">succinate [cytoplasm]</data>
+    </node>
+    <node id="17">
+      <data key="d0">1650.0</data>
+      <data key="d1">2970.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">orotidine 5'-(dihydrogen phosphate) [cytoplasm]</data>
+    </node>
+    <node id="16">
+      <data key="d0">2610.0</data>
+      <data key="d1">-390.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">5'-phosphoribosyl-5-aminoimidazole [cytoplasm]</data>
+    </node>
+    <node id="19">
+      <data key="d0">2310.0</data>
+      <data key="d1">270.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">phosphoribosyl-carboxy-aminoimidazole [cytoplasm]</data>
+    </node>
+    <node id="18">
+      <data key="d0">-660.0</data>
+      <data key="d1">-2070.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">GMP [cytoplasm]</data>
+    </node>
+    <node id="hn0('95', '28')">
+      <data key="d0">1950.0</data>
+      <data key="d1">1950.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="hn0('85', '43')">
+      <data key="d0">930.0</data>
+      <data key="d1">-1770.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="hn1('95', '28')">
+      <data key="d0">1800.0</data>
+      <data key="d1">2100.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="hn1('72', '69')">
+      <data key="d0">-1350.0</data>
+      <data key="d1">390.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="hn0('30', '15')">
+      <data key="d0">-690.0</data>
+      <data key="d1">-810.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="48">
+      <data key="d0">690.0</data>
+      <data key="d1">2970.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">UMP kinase</data>
+    </node>
+    <node id="49">
+      <data key="d0">-1320.0</data>
+      <data key="d1">3210.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">nucleoside triphosphatase</data>
+    </node>
+    <node id="46">
+      <data key="d0">-2190.0</data>
+      <data key="d1">660.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">dUTP [cytoplasm]</data>
+    </node>
+    <node id="47">
+      <data key="d0">1650.0</data>
+      <data key="d1">-1950.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">5-phospho-ribosyl-glycineamide [cytoplasm]</data>
+    </node>
+    <node id="44">
+      <data key="d0">-3180.0</data>
+      <data key="d1">-2070.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">5-amino-6-(D-ribitylamino)uracil [cytoplasm]</data>
+    </node>
+    <node id="45">
+      <data key="d0">3870.0</data>
+      <data key="d1">-3180.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">ribose-5-phosphate [cytoplasm]</data>
+    </node>
+    <node id="42">
+      <data key="d0">1650.0</data>
+      <data key="d1">1230.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">(S)-dihydroorotate [cytoplasm]</data>
+    </node>
+    <node id="43">
+      <data key="d0">1350.0</data>
+      <data key="d1">-1770.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">10-formyl-THF [cytoplasm]</data>
+    </node>
+    <node id="40">
+      <data key="d0">2610.0</data>
+      <data key="d1">-30.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">phosphoribosylaminoimidazole-carboxylase</data>
+    </node>
+    <node id="41">
+      <data key="d0">-2880.0</data>
+      <data key="d1">-2850.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">2-hydroxy-3-oxobutyl phosphate [cytoplasm]</data>
+    </node>
+    <node id="1">
+      <data key="d0">-3060.0</data>
+      <data key="d1">660.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">dCMP deaminase</data>
+    </node>
+    <node id="hn1('83', '8')">
+      <data key="d0">2670.0</data>
+      <data key="d1">-1140.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="9">
+      <data key="d0">-1710.0</data>
+      <data key="d1">-2070.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 5'-phosphate reductase (NADPH)</data>
+    </node>
+    <node id="77">
+      <data key="d0">1650.0</data>
+      <data key="d1">-1560.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">glycinamide ribotide transformylase</data>
+    </node>
+    <node id="76">
+      <data key="d0">-2880.0</data>
+      <data key="d1">-2070.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">pyrimidine phosphatase</data>
+    </node>
+    <node id="75">
+      <data key="d0">2310.0</data>
+      <data key="d1">2130.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">ubiquinol-6 [mitochondrion]</data>
+    </node>
+    <node id="74">
+      <data key="d0">-1950.0</data>
+      <data key="d1">-2070.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">2,5-diamino-6-(5-phosphono)ribitylamino-4(3H)-pyrimidinone [cytoplasm]</data>
+    </node>
+    <node id="73">
+      <data key="d0">-660.0</data>
+      <data key="d1">210.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">GDP [cytoplasm]</data>
+    </node>
+    <node id="72">
+      <data key="d0">-660.0</data>
+      <data key="d1">750.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">ribonucleotide reductase</data>
+    </node>
+    <node id="71">
+      <data key="d0">3870.0</data>
+      <data key="d1">-1950.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">PRPP [cytoplasm]</data>
+    </node>
+    <node id="70">
+      <data key="d0">-1050.0</data>
+      <data key="d1">960.0</data>
+      <data key="d2">100.0</data>
+      <data key="d3">YLR043C disulphide [cytoplasm]</data>
+    </node>
+    <node id="79">
+      <data key="d0">-2460.0</data>
+      <data key="d1">60.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">deoxyadenylate kinase</data>
+    </node>
+    <node id="78">
+      <data key="d0">30.0</data>
+      <data key="d1">750.0</data>
+      <data key="d2">36.0</data>
+      <data key="d3">adenylosuccinate lyase</data>
+    </node>
+    <node id="hn0('83', '8')">
+      <data key="d0">2340.0</data>
+      <data key="d1">-1140.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="hn0('12', '70')">
+      <data key="d0">-1650.0</data>
+      <data key="d1">1290.0</data>
+      <data key="d2">4.0</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <edge source="24" target="76" />
+    <edge source="25" target="36" />
+    <edge source="25" target="41" />
+    <edge source="26" target="32" />
+    <edge source="27" target="23" />
+    <edge source="20" target="10" />
+    <edge source="21" target="1" />
+    <edge source="22" target="59" />
+    <edge source="22" target="hn1('12', '22')" />
+    <edge source="29" target="98" />
+    <edge source="hn0('4', '13')" target="4" />
+    <edge source="0" target="68" />
+    <edge source="4" target="29" />
+    <edge source="8" target="99" />
+    <edge source="8" target="hn1('83', '8')" />
+    <edge source="8" target="39" />
+    <edge source="8" target="hn1('94', '8')" />
+    <edge source="hn0('12', '22')" target="12" />
+    <edge source="hn1('4', '13')" target="hn0('4', '13')" />
+    <edge source="hn0('77', '61')" target="61" />
+    <edge source="hn0('87', '28')" target="hn1('87', '28')" />
+    <edge source="hn1('87', '28')" target="28" />
+    <edge source="59" target="93" />
+    <edge source="58" target="80" />
+    <edge source="55" target="56" />
+    <edge source="57" target="33" />
+    <edge source="56" target="33" />
+    <edge source="50" target="89" />
+    <edge source="53" target="91" />
+    <edge source="52" target="64" />
+    <edge source="88" target="22" />
+    <edge source="89" target="28" />
+    <edge source="89" target="14" />
+    <edge source="82" target="54" />
+    <edge source="83" target="26" />
+    <edge source="80" target="51" />
+    <edge source="81" target="79" />
+    <edge source="86" target="67" />
+    <edge source="87" target="hn0('87', '28')" />
+    <edge source="87" target="71" />
+    <edge source="84" target="15" />
+    <edge source="85" target="61" />
+    <edge source="85" target="20" />
+    <edge source="3" target="24" />
+    <edge source="hn1('63', '70')" target="70" />
+    <edge source="7" target="27" />
+    <edge source="hn1('30', '13')" target="hn0('30', '13')" />
+    <edge source="39" target="55" />
+    <edge source="38" target="78" />
+    <edge source="hn0('94', '8')" target="94" />
+    <edge source="32" target="16" />
+    <edge source="30" target="38" />
+    <edge source="30" target="73" />
+    <edge source="37" target="69" />
+    <edge source="35" target="25" />
+    <edge source="34" target="83" />
+    <edge source="hn0('72', '69')" target="72" />
+    <edge source="hn1('94', '8')" target="hn0('94', '8')" />
+    <edge source="hn0('30', '13')" target="30" />
+    <edge source="hn0('98', '50')" target="50" />
+    <edge source="hn1('12', '22')" target="hn0('12', '22')" />
+    <edge source="hn1('12', '70')" target="70" />
+    <edge source="60" target="39" />
+    <edge source="62" target="85" />
+    <edge source="63" target="hn0('63', '70')" />
+    <edge source="63" target="31" />
+    <edge source="64" target="47" />
+    <edge source="65" target="95" />
+    <edge source="66" target="88" />
+    <edge source="67" target="48" />
+    <edge source="68" target="94" />
+    <edge source="69" target="hn1('72', '69')" />
+    <edge source="69" target="12" />
+    <edge source="69" target="63" />
+    <edge source="hn0('97', '41')" target="97" />
+    <edge source="6" target="64" />
+    <edge source="hn0('63', '70')" target="hn1('63', '70')" />
+    <edge source="99" target="52" />
+    <edge source="98" target="hn0('98', '50')" />
+    <edge source="98" target="62" />
+    <edge source="hn0('91', '44')" target="44" />
+    <edge source="91" target="hn0('91', '44')" />
+    <edge source="91" target="2" />
+    <edge source="90" target="71" />
+    <edge source="93" target="49" />
+    <edge source="92" target="9" />
+    <edge source="95" target="hn0('95', '28')" />
+    <edge source="95" target="75" />
+    <edge source="94" target="18" />
+    <edge source="97" target="53" />
+    <edge source="96" target="92" />
+    <edge source="96" target="36" />
+    <edge source="11" target="0" />
+    <edge source="11" target="30" />
+    <edge source="10" target="11" />
+    <edge source="13" target="hn1('4', '13')" />
+    <edge source="13" target="56" />
+    <edge source="13" target="hn1('30', '13')" />
+    <edge source="12" target="46" />
+    <edge source="12" target="hn0('12', '70')" />
+    <edge source="15" target="hn0('30', '15')" />
+    <edge source="15" target="96" />
+    <edge source="17" target="86" />
+    <edge source="17" target="87" />
+    <edge source="16" target="40" />
+    <edge source="19" target="4" />
+    <edge source="hn0('95', '28')" target="hn1('95', '28')" />
+    <edge source="hn0('85', '43')" target="85" />
+    <edge source="hn1('95', '28')" target="28" />
+    <edge source="hn1('72', '69')" target="hn0('72', '69')" />
+    <edge source="hn0('30', '15')" target="30" />
+    <edge source="48" target="66" />
+    <edge source="49" target="58" />
+    <edge source="46" target="82" />
+    <edge source="47" target="77" />
+    <edge source="44" target="97" />
+    <edge source="45" target="90" />
+    <edge source="42" target="57" />
+    <edge source="42" target="89" />
+    <edge source="42" target="95" />
+    <edge source="43" target="77" />
+    <edge source="43" target="hn0('85', '43')" />
+    <edge source="40" target="19" />
+    <edge source="41" target="hn0('97', '41')" />
+    <edge source="1" target="54" />
+    <edge source="hn1('83', '8')" target="hn0('83', '8')" />
+    <edge source="9" target="74" />
+    <edge source="77" target="hn0('77', '61')" />
+    <edge source="77" target="34" />
+    <edge source="76" target="44" />
+    <edge source="74" target="3" />
+    <edge source="73" target="72" />
+    <edge source="73" target="84" />
+    <edge source="72" target="70" />
+    <edge source="72" target="23" />
+    <edge source="71" target="99" />
+    <edge source="70" target="37" />
+    <edge source="79" target="31" />
+    <edge source="78" target="50" />
+    <edge source="hn0('83', '8')" target="83" />
+    <edge source="hn0('12', '70')" target="hn1('12', '70')" />
+  </graph>
+</graphml>

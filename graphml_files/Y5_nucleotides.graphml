@@ -1,0 +1,1406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<key attr.name="label" attr.type="string" for="node" id="label"/>
+<key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+<key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+<key attr.name="Edge Id" attr.type="string" for="edge" id="edgeid"/>
+<key attr.name="r" attr.type="int" for="node" id="r"/>
+<key attr.name="g" attr.type="int" for="node" id="g"/>
+<key attr.name="b" attr.type="int" for="node" id="b"/>
+<key attr.name="x" attr.type="float" for="node" id="x"/>
+<key attr.name="y" attr.type="float" for="node" id="y"/>
+<key attr.name="size" attr.type="float" for="node" id="size"/>
+<key attr.name="node_type" attr.type="string" for="node" id="d2"/>
+<graph edgedefault="directed">
+<node id="s_1003">
+<data key="label">L-glycine [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-53.092785</data>
+<data key="y">826.28864</data>
+</node>
+<node id="s_0526">
+<data key="label">CMP [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-453.09277</data>
+<data key="y">-323.71133</data>
+</node>
+<node id="r_0079">
+<data key="label">5'-phosphoribosylformyl glycinamidine synthetase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">46.907215</data>
+<data key="y">576.28864</data>
+</node>
+<node id="s_0325">
+<data key="label">5-phospho-ribosyl-glycineamide [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">46.907215</data>
+<data key="y">726.28864</data>
+</node>
+<node id="s_0327">
+<data key="label">5-phosphoribosylamine [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">46.907215</data>
+<data key="y">826.28864</data>
+</node>
+<node id="s_0328">
+<data key="label">6,7-dimethyl-8-(1-D-ribityl)lumazine [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">546.9072</data>
+<data key="y">426.28867</data>
+</node>
+<node id="s_1364">
+<data key="label">phosphoribosyl-carboxy-aminoimidazole [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">46.907215</data>
+<data key="y">326.28867</data>
+</node>
+<node id="s_1365">
+<data key="label">phosphoribosyl-formamido-carboxamide [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">46.907215</data>
+<data key="y">26.28866</data>
+</node>
+<node id="r_1072">
+<data key="label">UMP kinase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-253.09279</data>
+<data key="y">-373.71133</data>
+</node>
+<node id="s_0403">
+<data key="label">AICAR [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">46.907215</data>
+<data key="y">126.28866</data>
+</node>
+<node id="r_0973">
+<data key="label">ribonucleoside-triphosphate reductase (UTP)</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-253.09279</data>
+<data key="y">-573.71136</data>
+</node>
+<node id="s_1270">
+<data key="label">orotidine 5'-(dihydrogen phosphate) [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-253.09279</data>
+<data key="y">-123.71134</data>
+</node>
+<node id="r_0974">
+<data key="label">ribonucleotide reductase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-53.092785</data>
+<data key="y">-573.71136</data>
+</node>
+<node id="s_0649">
+<data key="label">dTMP [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-203.09279</data>
+<data key="y">-823.71136</data>
+</node>
+<node id="4">
+<data key="label">ctrl</data>
+<data key="d2">ctrl</data>
+<data key="size">10.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-553.0928</data>
+<data key="y">26.28866</data>
+</node>
+<node id="s_1269">
+<data key="label">orotate [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-253.09279</data>
+<data key="y">-23.71134</data>
+</node>
+<node id="s_0423">
+<data key="label">AMP [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-53.092785</data>
+<data key="y">-323.71133</data>
+</node>
+<node id="s_0314">
+<data key="label">5-amino-6-(D-ribitylamino)uracil [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">546.9072</data>
+<data key="y">526.28864</data>
+</node>
+<node id="r_0349">
+<data key="label">dihydroorotase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-253.09279</data>
+<data key="y">126.28866</data>
+</node>
+<node id="s_0313">
+<data key="label">5-amino-6-(5-phosphoribitylamino)uracil [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">546.9072</data>
+<data key="y">626.28864</data>
+</node>
+<node id="s_0394">
+<data key="label">ADP [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-53.092785</data>
+<data key="y">-423.71133</data>
+</node>
+<node id="s_0393">
+<data key="label">adenylo-succinate [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-53.092785</data>
+<data key="y">-173.71133</data>
+</node>
+<node id="r_1045">
+<data key="label">thymidylate synthase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-203.09279</data>
+<data key="y">-773.71136</data>
+</node>
+<node id="s_0849">
+<data key="label">IMP [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">46.907215</data>
+<data key="y">-73.71134</data>
+</node>
+<node id="r_0908">
+<data key="label">phosphoribosyl amino imidazolesuccinocarbozamide synthetase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">46.907215</data>
+<data key="y">276.28867</data>
+</node>
+<node id="r_0570">
+<data key="label">inosine monophosphate cyclohydrolase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">46.907215</data>
+<data key="y">-23.71134</data>
+</node>
+<node id="s_0654">
+<data key="label">dUMP [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-253.09279</data>
+<data key="y">-723.71136</data>
+</node>
+<node id="s_0656">
+<data key="label">dUTP [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-253.09279</data>
+<data key="y">-623.71136</data>
+</node>
+<node id="r_2030">
+<data key="label">pyrimidine phosphatase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">546.9072</data>
+<data key="y">576.28864</data>
+</node>
+<node id="r_0214">
+<data key="label">aspartate carbamoyltransferase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-253.09279</data>
+<data key="y">226.28867</data>
+</node>
+<node id="r_0453">
+<data key="label">Fumarate dependent DHORD</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-253.09279</data>
+<data key="y">26.28866</data>
+</node>
+<node id="s_0785">
+<data key="label">GTP [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">346.90723</data>
+<data key="y">-423.71133</data>
+</node>
+<node id="s_0782">
+<data key="label">GMP [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">146.90721</data>
+<data key="y">-323.71133</data>
+</node>
+<node id="s_0302">
+<data key="label">5'-phosphoribosyl-N-formylglycineamidine [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">46.907215</data>
+<data key="y">526.28864</data>
+</node>
+<node id="s_0301">
+<data key="label">5'-phosphoribosyl-N-formylglycineamide [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">46.907215</data>
+<data key="y">626.28864</data>
+</node>
+<node id="s_0300">
+<data key="label">5'-phosphoribosyl-5-aminoimidazole [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">46.907215</data>
+<data key="y">426.28867</data>
+</node>
+<node id="s_0299">
+<data key="label">5'-phosphoribosyl-4-(N-succinocarboxamide)-5-aminoimidazole [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">46.907215</data>
+<data key="y">226.28867</data>
+</node>
+<node id="r_0855">
+<data key="label">phopshoribosylaminoimidazole synthetase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">46.907215</data>
+<data key="y">476.28867</data>
+</node>
+<node id="s_0467">
+<data key="label">CDP [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-453.09277</data>
+<data key="y">-423.71133</data>
+</node>
+<node id="3">
+<data key="label">ctrl</data>
+<data key="d2">ctrl</data>
+<data key="size">10.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-453.09277</data>
+<data key="y">926.28864</data>
+</node>
+<node id="r_0915">
+<data key="label">phosphoribosylpyrophosphate amidotransferase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">46.907215</data>
+<data key="y">876.28864</data>
+</node>
+<node id="r_0914">
+<data key="label">phosphoribosylglycinamidine synthetase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">46.907215</data>
+<data key="y">776.28864</data>
+</node>
+<node id="r_0911">
+<data key="label">phosphoribosylaminoimidazole-carboxylase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">46.907215</data>
+<data key="y">376.28867</data>
+</node>
+<node id="r_0912">
+<data key="label">phosphoribosylaminoimidazolecarboxamide formyltransferase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">46.907215</data>
+<data key="y">76.28866</data>
+</node>
+<node id="r_0978">
+<data key="label">ribonucleotide reductase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">146.90721</data>
+<data key="y">-573.71136</data>
+</node>
+<node id="s_0577">
+<data key="label">D-ribulose 5-phosphate [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">646.9072</data>
+<data key="y">826.28864</data>
+</node>
+<node id="r_0326">
+<data key="label">dCMP deaminase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-303.09277</data>
+<data key="y">-773.71136</data>
+</node>
+<node id="s_1194">
+<data key="label">N-carbamoyl-L-aspartate [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-253.09279</data>
+<data key="y">176.28867</data>
+</node>
+<node id="s_1616">
+<data key="label">TRX1 [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">46.907215</data>
+<data key="y">-623.71136</data>
+</node>
+<node id="r_0514">
+<data key="label">GMP synthase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">146.90721</data>
+<data key="y">-223.71133</data>
+</node>
+<node id="s_1538">
+<data key="label">UDP [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-253.09279</data>
+<data key="y">-423.71133</data>
+</node>
+<node id="r_0338">
+<data key="label">dihydoorotic acid (ubiquinone-6)</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-303.09277</data>
+<data key="y">26.28866</data>
+</node>
+<node id="r_0330">
+<data key="label">deoxyguanylate kinase (dGMP:ATP)</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">146.90721</data>
+<data key="y">-773.71136</data>
+</node>
+<node id="r_0038">
+<data key="label">3,4-dihydroxy-2-butanone-4-phosphate synthase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">646.9072</data>
+<data key="y">576.28864</data>
+</node>
+<node id="r_0528">
+<data key="label">guanylate kinase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">146.90721</data>
+<data key="y">-373.71133</data>
+</node>
+<node id="r_1038">
+<data key="label">thioredoxin reductase (NADPH)</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">46.907215</data>
+<data key="y">-573.71136</data>
+</node>
+<node id="r_0525">
+<data key="label">GTP cyclohydrolase II</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">346.90723</data>
+<data key="y">676.28864</data>
+</node>
+<node id="r_0307">
+<data key="label">CTP synthase (NH3)</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-353.09277</data>
+<data key="y">-523.71136</data>
+</node>
+<node id="r_1729">
+<data key="label">deoxyadenylate kinase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-53.092785</data>
+<data key="y">-773.71136</data>
+</node>
+<node id="s_0539">
+<data key="label">CTP [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-453.09277</data>
+<data key="y">-523.71136</data>
+</node>
+<node id="r_0148">
+<data key="label">adenylate kinase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-53.092785</data>
+<data key="y">-373.71133</data>
+</node>
+<node id="s_1545">
+<data key="label">UMP [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-253.09279</data>
+<data key="y">-323.71133</data>
+</node>
+<node id="s_0141">
+<data key="label">2,5-diamino-4-hydroxy-6-(5-phosphoribosylamino)pyrimidine [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">446.90723</data>
+<data key="y">826.28864</data>
+</node>
+<node id="s_0142">
+<data key="label">2,5-diamino-6-(5-phosphono)ribitylamino-4(3H)-pyrimidinone [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">546.9072</data>
+<data key="y">726.28864</data>
+</node>
+<node id="s_0615">
+<data key="label">dGMP [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">146.90721</data>
+<data key="y">-823.71136</data>
+</node>
+<node id="s_0613">
+<data key="label">dGDP [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">146.90721</data>
+<data key="y">-673.71136</data>
+</node>
+<node id="s_0455">
+<data key="label">carbamoyl phosphate [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-253.09279</data>
+<data key="y">326.28867</data>
+</node>
+<node id="r_0821">
+<data key="label">orotidine-5'-phosphate decarboxylase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-253.09279</data>
+<data key="y">-173.71133</data>
+</node>
+<node id="r_0820">
+<data key="label">orotate phosphoribosyltransferase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-253.09279</data>
+<data key="y">-73.71134</data>
+</node>
+<node id="s_0061">
+<data key="label">(S)-dihydroorotate [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-253.09279</data>
+<data key="y">76.28866</data>
+</node>
+<node id="r_0499">
+<data key="label">glycinamide ribotide transformylase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">46.907215</data>
+<data key="y">676.28864</data>
+</node>
+<node id="s_1386">
+<data key="label">PRPP [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">46.907215</data>
+<data key="y">926.28864</data>
+</node>
+<node id="r_0014">
+<data key="label">2,5-diamino-6-ribitylamino-4(3H)-pyrimidinone 5'-phosphate deaminase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">546.9072</data>
+<data key="y">676.28864</data>
+</node>
+<node id="r_0015">
+<data key="label">2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 5'-phosphate reductase (NADPH)</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">546.9072</data>
+<data key="y">776.28864</data>
+</node>
+<node id="r_0151">
+<data key="label">adenylosuccinate lyase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">46.907215</data>
+<data key="y">176.28867</data>
+</node>
+<node id="r_0153">
+<data key="label">adenylosuccinate synthase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-53.092785</data>
+<data key="y">-123.71134</data>
+</node>
+<node id="r_0152">
+<data key="label">adenylosuccinate lyase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-53.092785</data>
+<data key="y">-223.71133</data>
+</node>
+<node id="s_1559">
+<data key="label">UTP [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-253.09279</data>
+<data key="y">-523.71136</data>
+</node>
+<node id="r_0792">
+<data key="label">nucleoside diphosphatase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-453.09277</data>
+<data key="y">-373.71133</data>
+</node>
+<node id="s_0158">
+<data key="label">2-hydroxy-3-oxobutyl phosphate [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">646.9072</data>
+<data key="y">526.28864</data>
+</node>
+<node id="s_0584">
+<data key="label">dAMP [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-53.092785</data>
+<data key="y">-823.71136</data>
+</node>
+<node id="5">
+<data key="label">ctrl</data>
+<data key="d2">ctrl</data>
+<data key="size">10.0</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-553.0928</data>
+<data key="y">776.28864</data>
+</node>
+<node id="s_0582">
+<data key="label">dADP [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-53.092785</data>
+<data key="y">-673.71136</data>
+</node>
+<node id="r_0811">
+<data key="label">nucleoside-diphosphate kinase (ATP:UDP)</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-253.09279</data>
+<data key="y">-473.71133</data>
+</node>
+<node id="s_1620">
+<data key="label">YLR043C disulphide [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">46.907215</data>
+<data key="y">-523.71136</data>
+</node>
+<node id="s_0589">
+<data key="label">dCMP [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-303.09277</data>
+<data key="y">-823.71136</data>
+</node>
+<node id="s_1405">
+<data key="label">riboflavin [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">446.90723</data>
+<data key="y">576.28864</data>
+</node>
+<node id="s_0973">
+<data key="label">L-aspartate [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-53.092785</data>
+<data key="y">326.28867</data>
+</node>
+<node id="r_0565">
+<data key="label">IMP dehydrogenase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">146.90721</data>
+<data key="y">-123.71134</data>
+</node>
+<node id="r_0364">
+<data key="label">dUTP diphosphatase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-253.09279</data>
+<data key="y">-673.71136</data>
+</node>
+<node id="s_1565">
+<data key="label">xanthosine-5-phosphate [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">146.90721</data>
+<data key="y">-173.71133</data>
+</node>
+<node id="r_0806">
+<data key="label">nucleoside triphosphatase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-453.09277</data>
+<data key="y">-473.71133</data>
+</node>
+<node id="r_0968">
+<data key="label">riboflavin synthase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">446.90723</data>
+<data key="y">476.28867</data>
+</node>
+<node id="r_0800">
+<data key="label">nucleoside diphosphate kinase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">246.90721</data>
+<data key="y">-423.71133</data>
+</node>
+<node id="r_0967">
+<data key="label">riboflavin synthase</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">546.9072</data>
+<data key="y">476.28867</data>
+</node>
+<node id="r_0250">
+<data key="label">carbamoyl-phosphate synthase (glutamine-hydrolysing)</data>
+<data key="d2">reaction</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-253.09279</data>
+<data key="y">376.28867</data>
+</node>
+<node id="s_0739">
+<data key="label">GDP [cytoplasm]</data>
+<data key="d2">species</data>
+<data key="size">10.0</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">146.90721</data>
+<data key="y">-423.71133</data>
+</node>
+<edge source="s_1003" target="r_0914">
+<data key="edgeid">640</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0079" target="s_0302">
+<data key="edgeid">641</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0325" target="r_0499">
+<data key="edgeid">642</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0327" target="r_0914">
+<data key="edgeid">643</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0328" target="r_0968">
+<data key="edgeid">644</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_1364" target="r_0908">
+<data key="edgeid">645</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_1365" target="r_0570">
+<data key="edgeid">646</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_1072" target="s_1538">
+<data key="edgeid">647</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0403" target="r_0912">
+<data key="edgeid">648</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0973" target="s_1620">
+<data key="edgeid">649</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0973" target="s_0656">
+<data key="edgeid">650</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_1270" target="r_0821">
+<data key="edgeid">651</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_1270" target="r_0820">
+<data key="edgeid">652</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0974" target="s_1620">
+<data key="edgeid">653</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0974" target="s_0582">
+<data key="edgeid">654</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="4" target="5">
+<data key="edgeid">655</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0423" target="r_0148">
+<data key="edgeid">656</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0314" target="r_0967">
+<data key="edgeid">657</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0349" target="s_1194">
+<data key="edgeid">658</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0313" target="r_2030">
+<data key="edgeid">659</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0394" target="r_0974">
+<data key="edgeid">660</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0393" target="r_0152">
+<data key="edgeid">661</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_1045" target="s_0649">
+<data key="edgeid">662</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0849" target="r_0153">
+<data key="edgeid">663</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0849" target="r_0565">
+<data key="edgeid">664</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0908" target="s_0299">
+<data key="edgeid">665</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0570" target="s_0849">
+<data key="edgeid">666</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0654" target="r_1045">
+<data key="edgeid">667</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0656" target="r_0364">
+<data key="edgeid">668</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_2030" target="s_0314">
+<data key="edgeid">669</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0214" target="s_1194">
+<data key="edgeid">670</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0453" target="s_1269">
+<data key="edgeid">671</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0785" target="r_0525">
+<data key="edgeid">672</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0782" target="r_0528">
+<data key="edgeid">673</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0302" target="r_0855">
+<data key="edgeid">674</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0301" target="r_0079">
+<data key="edgeid">675</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0300" target="r_0911">
+<data key="edgeid">676</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0299" target="r_0151">
+<data key="edgeid">677</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0855" target="s_0300">
+<data key="edgeid">678</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0467" target="r_0792">
+<data key="edgeid">679</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="3" target="s_1386">
+<data key="edgeid">680</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0915" target="s_0327">
+<data key="edgeid">681</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0914" target="s_0325">
+<data key="edgeid">682</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0911" target="s_1364">
+<data key="edgeid">683</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0912" target="s_1365">
+<data key="edgeid">684</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0978" target="s_1620">
+<data key="edgeid">685</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0978" target="s_0613">
+<data key="edgeid">686</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0577" target="r_0038">
+<data key="edgeid">687</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0326" target="s_0654">
+<data key="edgeid">688</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_1616" target="r_0973">
+<data key="edgeid">689</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_1616" target="r_0978">
+<data key="edgeid">690</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_1616" target="r_0974">
+<data key="edgeid">691</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0514" target="s_0782">
+<data key="edgeid">692</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_1538" target="r_0811">
+<data key="edgeid">693</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0338" target="s_1269">
+<data key="edgeid">694</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0330" target="s_0613">
+<data key="edgeid">695</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0038" target="s_0158">
+<data key="edgeid">696</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0528" target="s_0739">
+<data key="edgeid">697</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_1038" target="s_1616">
+<data key="edgeid">698</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0525" target="s_0141">
+<data key="edgeid">699</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0307" target="s_0539">
+<data key="edgeid">700</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_1729" target="s_0582">
+<data key="edgeid">701</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0539" target="r_0806">
+<data key="edgeid">702</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0148" target="s_0394">
+<data key="edgeid">703</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_1545" target="r_1072">
+<data key="edgeid">704</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0141" target="r_0015">
+<data key="edgeid">705</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0142" target="r_0014">
+<data key="edgeid">706</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0615" target="r_0330">
+<data key="edgeid">707</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0455" target="r_0214">
+<data key="edgeid">708</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0821" target="s_1545">
+<data key="edgeid">709</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0820" target="s_1269">
+<data key="edgeid">710</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0820" target="4">
+<data key="edgeid">711</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0061" target="r_0349">
+<data key="edgeid">712</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0061" target="r_0453">
+<data key="edgeid">713</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0061" target="r_0338">
+<data key="edgeid">714</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0499" target="s_0301">
+<data key="edgeid">715</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_1386" target="r_0915">
+<data key="edgeid">716</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0014" target="s_0313">
+<data key="edgeid">717</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0015" target="s_0142">
+<data key="edgeid">718</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0151" target="s_0403">
+<data key="edgeid">719</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0153" target="s_0393">
+<data key="edgeid">720</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0152" target="s_0423">
+<data key="edgeid">721</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_1559" target="r_0973">
+<data key="edgeid">722</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_1559" target="r_0307">
+<data key="edgeid">723</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0792" target="s_0526">
+<data key="edgeid">724</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0158" target="r_0967">
+<data key="edgeid">725</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0584" target="r_1729">
+<data key="edgeid">726</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="5" target="3">
+<data key="edgeid">727</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0811" target="s_1559">
+<data key="edgeid">728</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_1620" target="r_1038">
+<data key="edgeid">729</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0589" target="r_0326">
+<data key="edgeid">730</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0973" target="r_0214">
+<data key="edgeid">731</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0973" target="r_0153">
+<data key="edgeid">732</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0973" target="r_0908">
+<data key="edgeid">733</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0565" target="s_1565">
+<data key="edgeid">734</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0364" target="s_0654">
+<data key="edgeid">735</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_1565" target="r_0514">
+<data key="edgeid">736</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0806" target="s_0467">
+<data key="edgeid">737</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0968" target="s_0314">
+<data key="edgeid">738</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0968" target="s_1405">
+<data key="edgeid">739</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0800" target="s_0785">
+<data key="edgeid">740</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0967" target="s_0328">
+<data key="edgeid">741</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="r_0250" target="s_0455">
+<data key="edgeid">742</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0739" target="r_0978">
+<data key="edgeid">743</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="s_0739" target="r_0800">
+<data key="edgeid">744</data>
+<data key="weight">1.0</data>
+</edge>
+</graph>
+</graphml>

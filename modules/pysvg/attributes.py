@@ -561,7 +561,7 @@ class FontAttrib:
     def set_font_size(self, font_size):
         self._attributes['font-size'] = font_size
     def get_font_size(self):
-        return self.attributes['font-size']
+        return self._attributes['font-size']
     
     def set_font_size_adjust(self, font_size_adjust):
         self._attributes['font-size-adjust'] = font_size_adjust

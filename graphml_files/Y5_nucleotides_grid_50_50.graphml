@@ -1,0 +1,696 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="label" attr.type="string" for="node" id="d3" />
+  <key attr.name="node_type" attr.type="string" for="node" id="d2" />
+  <key attr.name="x" attr.type="double" for="node" id="d1" />
+  <key attr.name="y" attr.type="double" for="node" id="d0" />
+  <graph edgedefault="directed">
+    <node id="s_1003">
+      <data key="d0">700.0</data>
+      <data key="d1">-50.0</data>
+      <data key="d2">species</data>
+      <data key="d3">L-glycine [cytoplasm]</data>
+    </node>
+    <node id="s_0526">
+      <data key="d0">-300.0</data>
+      <data key="d1">-450.0</data>
+      <data key="d2">species</data>
+      <data key="d3">CMP [cytoplasm]</data>
+    </node>
+    <node id="r_0079">
+      <data key="d0">500.0</data>
+      <data key="d1">50.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">5'-phosphoribosylformyl glycinamidine synthetase</data>
+    </node>
+    <node id="s_0325">
+      <data key="d0">650.0</data>
+      <data key="d1">50.0</data>
+      <data key="d2">species</data>
+      <data key="d3">5-phospho-ribosyl-glycineamide [cytoplasm]</data>
+    </node>
+    <node id="s_0327">
+      <data key="d0">700.0</data>
+      <data key="d1">50.0</data>
+      <data key="d2">species</data>
+      <data key="d3">5-phosphoribosylamine [cytoplasm]</data>
+    </node>
+    <node id="s_0328">
+      <data key="d0">500.0</data>
+      <data key="d1">550.0</data>
+      <data key="d2">species</data>
+      <data key="d3">6,7-dimethyl-8-(1-D-ribityl)lumazine [cytoplasm]</data>
+    </node>
+    <node id="s_1364">
+      <data key="d0">300.0</data>
+      <data key="d1">50.0</data>
+      <data key="d2">species</data>
+      <data key="d3">phosphoribosyl-carboxy-aminoimidazole [cytoplasm]</data>
+    </node>
+    <node id="s_1365">
+      <data key="d0">50.0</data>
+      <data key="d1">50.0</data>
+      <data key="d2">species</data>
+      <data key="d3">phosphoribosyl-formamido-carboxamide [cytoplasm]</data>
+    </node>
+    <node id="r_1072">
+      <data key="d0">-350.0</data>
+      <data key="d1">-250.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">UMP kinase</data>
+    </node>
+    <node id="s_0403">
+      <data key="d0">150.0</data>
+      <data key="d1">50.0</data>
+      <data key="d2">species</data>
+      <data key="d3">AICAR [cytoplasm]</data>
+    </node>
+    <node id="r_0973">
+      <data key="d0">-550.0</data>
+      <data key="d1">-250.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">ribonucleoside-triphosphate reductase (UTP)</data>
+    </node>
+    <node id="s_1270">
+      <data key="d0">-100.0</data>
+      <data key="d1">-250.0</data>
+      <data key="d2">species</data>
+      <data key="d3">orotidine 5'-(dihydrogen phosphate) [cytoplasm]</data>
+    </node>
+    <node id="r_0974">
+      <data key="d0">-550.0</data>
+      <data key="d1">-50.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">ribonucleotide reductase</data>
+    </node>
+    <node id="s_0649">
+      <data key="d0">-800.0</data>
+      <data key="d1">-200.0</data>
+      <data key="d2">species</data>
+      <data key="d3">dTMP [cytoplasm]</data>
+    </node>
+    <node id="4">
+      <data key="d0">50.0</data>
+      <data key="d1">-550.0</data>
+      <data key="d2">ctrl</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="s_1269">
+      <data key="d0">0.0</data>
+      <data key="d1">-250.0</data>
+      <data key="d2">species</data>
+      <data key="d3">orotate [cytoplasm]</data>
+    </node>
+    <node id="s_0423">
+      <data key="d0">-300.0</data>
+      <data key="d1">-50.0</data>
+      <data key="d2">species</data>
+      <data key="d3">AMP [cytoplasm]</data>
+    </node>
+    <node id="s_0314">
+      <data key="d0">550.0</data>
+      <data key="d1">550.0</data>
+      <data key="d2">species</data>
+      <data key="d3">5-amino-6-(D-ribitylamino)uracil [cytoplasm]</data>
+    </node>
+    <node id="r_0349">
+      <data key="d0">150.0</data>
+      <data key="d1">-250.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">dihydroorotase</data>
+    </node>
+    <node id="s_0313">
+      <data key="d0">650.0</data>
+      <data key="d1">550.0</data>
+      <data key="d2">species</data>
+      <data key="d3">5-amino-6-(5-phosphoribitylamino)uracil [cytoplasm]</data>
+    </node>
+    <node id="s_0394">
+      <data key="d0">-400.0</data>
+      <data key="d1">-50.0</data>
+      <data key="d2">species</data>
+      <data key="d3">ADP [cytoplasm]</data>
+    </node>
+    <node id="s_0393">
+      <data key="d0">-150.0</data>
+      <data key="d1">-50.0</data>
+      <data key="d2">species</data>
+      <data key="d3">adenylo-succinate [cytoplasm]</data>
+    </node>
+    <node id="r_1045">
+      <data key="d0">-750.0</data>
+      <data key="d1">-200.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">thymidylate synthase</data>
+    </node>
+    <node id="s_0849">
+      <data key="d0">-50.0</data>
+      <data key="d1">50.0</data>
+      <data key="d2">species</data>
+      <data key="d3">IMP [cytoplasm]</data>
+    </node>
+    <node id="r_0908">
+      <data key="d0">250.0</data>
+      <data key="d1">50.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">phosphoribosyl amino imidazolesuccinocarbozamide synthetase</data>
+    </node>
+    <node id="r_0570">
+      <data key="d0">0.0</data>
+      <data key="d1">50.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">inosine monophosphate cyclohydrolase</data>
+    </node>
+    <node id="s_0654">
+      <data key="d0">-700.0</data>
+      <data key="d1">-250.0</data>
+      <data key="d2">species</data>
+      <data key="d3">dUMP [cytoplasm]</data>
+    </node>
+    <node id="s_0656">
+      <data key="d0">-600.0</data>
+      <data key="d1">-250.0</data>
+      <data key="d2">species</data>
+      <data key="d3">dUTP [cytoplasm]</data>
+    </node>
+    <node id="r_2030">
+      <data key="d0">600.0</data>
+      <data key="d1">550.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">pyrimidine phosphatase</data>
+    </node>
+    <node id="r_0214">
+      <data key="d0">250.0</data>
+      <data key="d1">-250.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">aspartate carbamoyltransferase</data>
+    </node>
+    <node id="r_0453">
+      <data key="d0">50.0</data>
+      <data key="d1">-250.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">Fumarate dependent DHORD</data>
+    </node>
+    <node id="s_0785">
+      <data key="d0">-400.0</data>
+      <data key="d1">350.0</data>
+      <data key="d2">species</data>
+      <data key="d3">GTP [cytoplasm]</data>
+    </node>
+    <node id="s_0782">
+      <data key="d0">-300.0</data>
+      <data key="d1">150.0</data>
+      <data key="d2">species</data>
+      <data key="d3">GMP [cytoplasm]</data>
+    </node>
+    <node id="s_0302">
+      <data key="d0">500.0</data>
+      <data key="d1">50.0</data>
+      <data key="d2">species</data>
+      <data key="d3">5'-phosphoribosyl-N-formylglycineamidine [cytoplasm]</data>
+    </node>
+    <node id="s_0301">
+      <data key="d0">550.0</data>
+      <data key="d1">50.0</data>
+      <data key="d2">species</data>
+      <data key="d3">5'-phosphoribosyl-N-formylglycineamide [cytoplasm]</data>
+    </node>
+    <node id="s_0300">
+      <data key="d0">400.0</data>
+      <data key="d1">50.0</data>
+      <data key="d2">species</data>
+      <data key="d3">5'-phosphoribosyl-5-aminoimidazole [cytoplasm]</data>
+    </node>
+    <node id="s_0299">
+      <data key="d0">250.0</data>
+      <data key="d1">50.0</data>
+      <data key="d2">species</data>
+      <data key="d3">5'-phosphoribosyl-4-(N-succinocarboxamide)-5-aminoimidazole [cytoplasm]</data>
+    </node>
+    <node id="r_0855">
+      <data key="d0">450.0</data>
+      <data key="d1">50.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">phopshoribosylaminoimidazole synthetase</data>
+    </node>
+    <node id="s_0467">
+      <data key="d0">-400.0</data>
+      <data key="d1">-450.0</data>
+      <data key="d2">species</data>
+      <data key="d3">CDP [cytoplasm]</data>
+    </node>
+    <node id="3">
+      <data key="d0">850.0</data>
+      <data key="d1">-450.0</data>
+      <data key="d2">ctrl</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="r_0915">
+      <data key="d0">750.0</data>
+      <data key="d1">50.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">phosphoribosylpyrophosphate amidotransferase</data>
+    </node>
+    <node id="r_0914">
+      <data key="d0">650.0</data>
+      <data key="d1">50.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">phosphoribosylglycinamidine synthetase</data>
+    </node>
+    <node id="r_0911">
+      <data key="d0">350.0</data>
+      <data key="d1">50.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">phosphoribosylaminoimidazole-carboxylase</data>
+    </node>
+    <node id="r_0912">
+      <data key="d0">100.0</data>
+      <data key="d1">50.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">phosphoribosylaminoimidazolecarboxamide formyltransferase</data>
+    </node>
+    <node id="r_0978">
+      <data key="d0">-550.0</data>
+      <data key="d1">150.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">ribonucleotide reductase</data>
+    </node>
+    <node id="s_0577">
+      <data key="d0">850.0</data>
+      <data key="d1">650.0</data>
+      <data key="d2">species</data>
+      <data key="d3">D-ribulose 5-phosphate [cytoplasm]</data>
+    </node>
+    <node id="r_0326">
+      <data key="d0">-750.0</data>
+      <data key="d1">-300.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">dCMP deaminase</data>
+    </node>
+    <node id="s_1194">
+      <data key="d0">200.0</data>
+      <data key="d1">-250.0</data>
+      <data key="d2">species</data>
+      <data key="d3">N-carbamoyl-L-aspartate [cytoplasm]</data>
+    </node>
+    <node id="s_1616">
+      <data key="d0">-600.0</data>
+      <data key="d1">50.0</data>
+      <data key="d2">species</data>
+      <data key="d3">TRX1 [cytoplasm]</data>
+    </node>
+    <node id="r_0514">
+      <data key="d0">-200.0</data>
+      <data key="d1">150.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">GMP synthase</data>
+    </node>
+    <node id="s_1538">
+      <data key="d0">-400.0</data>
+      <data key="d1">-250.0</data>
+      <data key="d2">species</data>
+      <data key="d3">UDP [cytoplasm]</data>
+    </node>
+    <node id="r_0338">
+      <data key="d0">50.0</data>
+      <data key="d1">-300.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">dihydoorotic acid (ubiquinone-6)</data>
+    </node>
+    <node id="r_0330">
+      <data key="d0">-750.0</data>
+      <data key="d1">150.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">deoxyguanylate kinase (dGMP:ATP)</data>
+    </node>
+    <node id="r_0038">
+      <data key="d0">600.0</data>
+      <data key="d1">650.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">3,4-dihydroxy-2-butanone-4-phosphate synthase</data>
+    </node>
+    <node id="r_0528">
+      <data key="d0">-350.0</data>
+      <data key="d1">150.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">guanylate kinase</data>
+    </node>
+    <node id="r_1038">
+      <data key="d0">-550.0</data>
+      <data key="d1">50.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">thioredoxin reductase (NADPH)</data>
+    </node>
+    <node id="r_0525">
+      <data key="d0">700.0</data>
+      <data key="d1">350.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">GTP cyclohydrolase II</data>
+    </node>
+    <node id="r_0307">
+      <data key="d0">-500.0</data>
+      <data key="d1">-350.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">CTP synthase (NH3)</data>
+    </node>
+    <node id="r_1729">
+      <data key="d0">-750.0</data>
+      <data key="d1">-50.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">deoxyadenylate kinase</data>
+    </node>
+    <node id="r_0806">
+      <data key="d0">-450.0</data>
+      <data key="d1">-450.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">nucleoside triphosphatase</data>
+    </node>
+    <node id="r_0148">
+      <data key="d0">-350.0</data>
+      <data key="d1">-50.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">adenylate kinase</data>
+    </node>
+    <node id="s_1545">
+      <data key="d0">-300.0</data>
+      <data key="d1">-250.0</data>
+      <data key="d2">species</data>
+      <data key="d3">UMP [cytoplasm]</data>
+    </node>
+    <node id="r_0968">
+      <data key="d0">500.0</data>
+      <data key="d1">450.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">riboflavin synthase</data>
+    </node>
+    <node id="r_0800">
+      <data key="d0">-400.0</data>
+      <data key="d1">250.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">nucleoside diphosphate kinase</data>
+    </node>
+    <node id="s_0615">
+      <data key="d0">-800.0</data>
+      <data key="d1">150.0</data>
+      <data key="d2">species</data>
+      <data key="d3">dGMP [cytoplasm]</data>
+    </node>
+    <node id="s_0613">
+      <data key="d0">-650.0</data>
+      <data key="d1">150.0</data>
+      <data key="d2">species</data>
+      <data key="d3">dGDP [cytoplasm]</data>
+    </node>
+    <node id="s_0455">
+      <data key="d0">300.0</data>
+      <data key="d1">-250.0</data>
+      <data key="d2">species</data>
+      <data key="d3">carbamoyl phosphate [cytoplasm]</data>
+    </node>
+    <node id="r_0821">
+      <data key="d0">-150.0</data>
+      <data key="d1">-250.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">orotidine-5'-phosphate decarboxylase</data>
+    </node>
+    <node id="r_0820">
+      <data key="d0">-50.0</data>
+      <data key="d1">-250.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">orotate phosphoribosyltransferase</data>
+    </node>
+    <node id="r_0967">
+      <data key="d0">500.0</data>
+      <data key="d1">550.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">riboflavin synthase</data>
+    </node>
+    <node id="r_0499">
+      <data key="d0">600.0</data>
+      <data key="d1">50.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">glycinamide ribotide transformylase</data>
+    </node>
+    <node id="s_1386">
+      <data key="d0">850.0</data>
+      <data key="d1">50.0</data>
+      <data key="d2">species</data>
+      <data key="d3">PRPP [cytoplasm]</data>
+    </node>
+    <node id="r_0014">
+      <data key="d0">700.0</data>
+      <data key="d1">550.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">2,5-diamino-6-ribitylamino-4(3H)-pyrimidinone 5'-phosphate deaminase</data>
+    </node>
+    <node id="r_0015">
+      <data key="d0">800.0</data>
+      <data key="d1">550.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 5'-phosphate reductase (NADPH)</data>
+    </node>
+    <node id="r_0151">
+      <data key="d0">200.0</data>
+      <data key="d1">50.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">adenylosuccinate lyase</data>
+    </node>
+    <node id="r_0153">
+      <data key="d0">-100.0</data>
+      <data key="d1">-50.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">adenylosuccinate synthase</data>
+    </node>
+    <node id="r_0152">
+      <data key="d0">-200.0</data>
+      <data key="d1">-50.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">adenylosuccinate lyase</data>
+    </node>
+    <node id="s_1559">
+      <data key="d0">-500.0</data>
+      <data key="d1">-250.0</data>
+      <data key="d2">species</data>
+      <data key="d3">UTP [cytoplasm]</data>
+    </node>
+    <node id="r_0792">
+      <data key="d0">-350.0</data>
+      <data key="d1">-450.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">nucleoside diphosphatase</data>
+    </node>
+    <node id="s_0158">
+      <data key="d0">550.0</data>
+      <data key="d1">650.0</data>
+      <data key="d2">species</data>
+      <data key="d3">2-hydroxy-3-oxobutyl phosphate [cytoplasm]</data>
+    </node>
+    <node id="s_0584">
+      <data key="d0">-800.0</data>
+      <data key="d1">-50.0</data>
+      <data key="d2">species</data>
+      <data key="d3">dAMP [cytoplasm]</data>
+    </node>
+    <node id="5">
+      <data key="d0">800.0</data>
+      <data key="d1">-550.0</data>
+      <data key="d2">ctrl</data>
+      <data key="d3">ctrl</data>
+    </node>
+    <node id="s_0582">
+      <data key="d0">-650.0</data>
+      <data key="d1">-50.0</data>
+      <data key="d2">species</data>
+      <data key="d3">dADP [cytoplasm]</data>
+    </node>
+    <node id="r_0811">
+      <data key="d0">-450.0</data>
+      <data key="d1">-250.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">nucleoside-diphosphate kinase (ATP:UDP)</data>
+    </node>
+    <node id="s_1620">
+      <data key="d0">-500.0</data>
+      <data key="d1">50.0</data>
+      <data key="d2">species</data>
+      <data key="d3">YLR043C disulphide [cytoplasm]</data>
+    </node>
+    <node id="s_0589">
+      <data key="d0">-800.0</data>
+      <data key="d1">-300.0</data>
+      <data key="d2">species</data>
+      <data key="d3">dCMP [cytoplasm]</data>
+    </node>
+    <node id="s_1405">
+      <data key="d0">600.0</data>
+      <data key="d1">450.0</data>
+      <data key="d2">species</data>
+      <data key="d3">riboflavin [cytoplasm]</data>
+    </node>
+    <node id="s_0973">
+      <data key="d0">300.0</data>
+      <data key="d1">-50.0</data>
+      <data key="d2">species</data>
+      <data key="d3">L-aspartate [cytoplasm]</data>
+    </node>
+    <node id="r_0565">
+      <data key="d0">-100.0</data>
+      <data key="d1">150.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">IMP dehydrogenase</data>
+    </node>
+    <node id="r_0364">
+      <data key="d0">-650.0</data>
+      <data key="d1">-250.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">dUTP diphosphatase</data>
+    </node>
+    <node id="s_1565">
+      <data key="d0">-150.0</data>
+      <data key="d1">150.0</data>
+      <data key="d2">species</data>
+      <data key="d3">xanthosine-5-phosphate [cytoplasm]</data>
+    </node>
+    <node id="s_0539">
+      <data key="d0">-500.0</data>
+      <data key="d1">-450.0</data>
+      <data key="d2">species</data>
+      <data key="d3">CTP [cytoplasm]</data>
+    </node>
+    <node id="s_0141">
+      <data key="d0">850.0</data>
+      <data key="d1">450.0</data>
+      <data key="d2">species</data>
+      <data key="d3">2,5-diamino-4-hydroxy-6-(5-phosphoribosylamino)pyrimidine [cytoplasm]</data>
+    </node>
+    <node id="s_0142">
+      <data key="d0">750.0</data>
+      <data key="d1">550.0</data>
+      <data key="d2">species</data>
+      <data key="d3">2,5-diamino-6-(5-phosphono)ribitylamino-4(3H)-pyrimidinone [cytoplasm]</data>
+    </node>
+    <node id="s_0061">
+      <data key="d0">100.0</data>
+      <data key="d1">-250.0</data>
+      <data key="d2">species</data>
+      <data key="d3">(S)-dihydroorotate [cytoplasm]</data>
+    </node>
+    <node id="r_0250">
+      <data key="d0">400.0</data>
+      <data key="d1">-250.0</data>
+      <data key="d2">reaction</data>
+      <data key="d3">carbamoyl-phosphate synthase (glutamine-hydrolysing)</data>
+    </node>
+    <node id="s_0739">
+      <data key="d0">-400.0</data>
+      <data key="d1">150.0</data>
+      <data key="d2">species</data>
+      <data key="d3">GDP [cytoplasm]</data>
+    </node>
+    <edge source="s_1003" target="r_0914" />
+    <edge source="r_0079" target="s_0302" />
+    <edge source="s_0325" target="r_0499" />
+    <edge source="s_0327" target="r_0914" />
+    <edge source="s_0328" target="r_0968" />
+    <edge source="s_1364" target="r_0908" />
+    <edge source="s_1365" target="r_0570" />
+    <edge source="r_1072" target="s_1538" />
+    <edge source="s_0403" target="r_0912" />
+    <edge source="r_0973" target="s_1620" />
+    <edge source="r_0973" target="s_0656" />
+    <edge source="s_1270" target="r_0821" />
+    <edge source="s_1270" target="r_0820" />
+    <edge source="r_0974" target="s_1620" />
+    <edge source="r_0974" target="s_0582" />
+    <edge source="4" target="5" />
+    <edge source="s_0423" target="r_0148" />
+    <edge source="s_0314" target="r_0967" />
+    <edge source="r_0349" target="s_1194" />
+    <edge source="s_0313" target="r_2030" />
+    <edge source="s_0394" target="r_0974" />
+    <edge source="s_0393" target="r_0152" />
+    <edge source="r_1045" target="s_0649" />
+    <edge source="s_0849" target="r_0153" />
+    <edge source="s_0849" target="r_0565" />
+    <edge source="r_0908" target="s_0299" />
+    <edge source="r_0570" target="s_0849" />
+    <edge source="s_0654" target="r_1045" />
+    <edge source="s_0656" target="r_0364" />
+    <edge source="r_2030" target="s_0314" />
+    <edge source="r_0214" target="s_1194" />
+    <edge source="r_0453" target="s_1269" />
+    <edge source="s_0785" target="r_0525" />
+    <edge source="s_0782" target="r_0528" />
+    <edge source="s_0302" target="r_0855" />
+    <edge source="s_0301" target="r_0079" />
+    <edge source="s_0300" target="r_0911" />
+    <edge source="s_0299" target="r_0151" />
+    <edge source="r_0855" target="s_0300" />
+    <edge source="s_0467" target="r_0792" />
+    <edge source="3" target="s_1386" />
+    <edge source="r_0915" target="s_0327" />
+    <edge source="r_0914" target="s_0325" />
+    <edge source="r_0911" target="s_1364" />
+    <edge source="r_0912" target="s_1365" />
+    <edge source="r_0978" target="s_1620" />
+    <edge source="r_0978" target="s_0613" />
+    <edge source="s_0577" target="r_0038" />
+    <edge source="r_0326" target="s_0654" />
+    <edge source="s_1616" target="r_0973" />
+    <edge source="s_1616" target="r_0978" />
+    <edge source="s_1616" target="r_0974" />
+    <edge source="r_0514" target="s_0782" />
+    <edge source="s_1538" target="r_0811" />
+    <edge source="r_0338" target="s_1269" />
+    <edge source="r_0330" target="s_0613" />
+    <edge source="r_0038" target="s_0158" />
+    <edge source="r_0528" target="s_0739" />
+    <edge source="r_1038" target="s_1616" />
+    <edge source="r_0525" target="s_0141" />
+    <edge source="r_0307" target="s_0539" />
+    <edge source="r_1729" target="s_0582" />
+    <edge source="r_0806" target="s_0467" />
+    <edge source="r_0148" target="s_0394" />
+    <edge source="s_1545" target="r_1072" />
+    <edge source="r_0968" target="s_0314" />
+    <edge source="r_0968" target="s_1405" />
+    <edge source="r_0800" target="s_0785" />
+    <edge source="s_0615" target="r_0330" />
+    <edge source="s_0455" target="r_0214" />
+    <edge source="r_0821" target="s_1545" />
+    <edge source="r_0820" target="s_1269" />
+    <edge source="r_0820" target="4" />
+    <edge source="r_0967" target="s_0328" />
+    <edge source="r_0499" target="s_0301" />
+    <edge source="s_1386" target="r_0915" />
+    <edge source="r_0014" target="s_0313" />
+    <edge source="r_0015" target="s_0142" />
+    <edge source="r_0151" target="s_0403" />
+    <edge source="r_0153" target="s_0393" />
+    <edge source="r_0152" target="s_0423" />
+    <edge source="s_1559" target="r_0973" />
+    <edge source="s_1559" target="r_0307" />
+    <edge source="r_0792" target="s_0526" />
+    <edge source="s_0158" target="r_0967" />
+    <edge source="s_0584" target="r_1729" />
+    <edge source="5" target="3" />
+    <edge source="r_0811" target="s_1559" />
+    <edge source="s_1620" target="r_1038" />
+    <edge source="s_0589" target="r_0326" />
+    <edge source="s_0973" target="r_0214" />
+    <edge source="s_0973" target="r_0153" />
+    <edge source="s_0973" target="r_0908" />
+    <edge source="r_0565" target="s_1565" />
+    <edge source="r_0364" target="s_0654" />
+    <edge source="s_1565" target="r_0514" />
+    <edge source="s_0539" target="r_0806" />
+    <edge source="s_0141" target="r_0015" />
+    <edge source="s_0142" target="r_0014" />
+    <edge source="s_0061" target="r_0349" />
+    <edge source="s_0061" target="r_0453" />
+    <edge source="s_0061" target="r_0338" />
+    <edge source="r_0250" target="s_0455" />
+    <edge source="s_0739" target="r_0978" />
+    <edge source="s_0739" target="r_0800" />
+  </graph>
+</graphml>
