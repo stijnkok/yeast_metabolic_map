@@ -10,29 +10,26 @@ If the graph in the json-file is not to your satisfaction to start with, one can
 
 Use in command line:
 -------------------
-**json_to_svg.py**
-Create an svg-file from the json output from Nicholas' module. This file is editable in an svg-editor such as Inkscape. Use json_to_svg.py --help for information on available flags.
-**layout_final.py**
-Create an svg-file from the output svg-file of json_to_svg.py and/or graph_to_svg.py with annotations on hover that can be used with visualize.py. Use layout_final.py --help for information on available flags.
+**json_to_svg.py**: create an svg-file from the json output from Nicholas' module. This file is editable in an svg-editor such as Inkscape. Use json_to_svg.py --help for information on available flags.
 
-**json_to_graphml.py**
-Create a graph-file (graphml) from the json output from Nicholas' module. This graph can be edited in a graph editor such as Gephi.
-**graph_to_svg.py**
-Create an svg from a graph file. This file is editable in an svg-editor such as Inkscape.
-**snap_to_grid.py**
-Change coordinates of nodes in graph file such that they are on a grid.
+**layout_final.py**: create an svg-file from the output svg-file of json_to_svg.py and/or graph_to_svg.py with annotations on hover that can be used with visualize.py. Use layout_final.py --help for information on available flags.
+
+
+**json_to_graphml.py**: create a graph-file (graphml) from the json output from Nicholas' module. This graph can be edited in a graph editor such as Gephi.
+
+**graph_to_svg.py**: create an svg from a graph file. This file is editable in an svg-editor such as Inkscape.
+
+**snap_to_grid.py**: change coordinates of nodes in graph file such that they are on a grid.
 
 Functions and classes:
 ---------------------
-**readers.py**
-Contains functions for reading the json, xml and graphml files
-**svg_paths.py**
-Contains functions to make svg-paths (used in json_to_svg.py)
-**svg_assembly.py**
-Contains functions to assemble an svg-file (used in json_to_svg.py)
+**readers.py** contains functions for reading the json, xml and graphml files.
 
-**visualize.py**
-Contains classes for mapping FBA results from cbmpy to an svg graphical map of the metabolic network (as created by json_to_svg.py)
+**svg_paths.py** contains functions to make svg-paths (used in json_to_svg.py).
+
+**svg_assembly.py** contains functions to assemble an svg-file (used in json_to_svg.py).
+
+**visualize.py** contains classes for mapping FBA results from cbmpy to an svg graphical map of the metabolic network (as created by json_to_svg.py).
 
 Example
 -------
@@ -49,4 +46,4 @@ A file with the metabolic map called 'Y5_nucleotides.svg' should now be saved in
 
 python modules\layout_final.py editable_svg_files\Y5_nucleotides.svg models\Y7.xml r_ s_ --svg_name Y5_nucleotides.svg
 
-A file called 'temp.svg' should now be saved in the metabolic_maps folder and opened in a new tab in your browser.
+A file called 'Y5_nucleotides.svg' should now be saved in the metabolic_maps folder and opened in a new tab in your browser.
