@@ -1,6 +1,7 @@
 import cbmpy as cbm
 import json
 import sys
+import re
 import argparse
 from PIL import ImageFont
 from readers import read_json_data, get_cofactors_from_sbml
@@ -27,7 +28,10 @@ def main(args):
 	
 	if args.ids_as_label:
 		for n in d['label']:
-			d['label'][n] = n
+			d['label'][n] = re.sub('_copy_[0-9]+', '', n)
+		for r in cofactors:
+			for s in cofactors[r]:
+				cofactors[r][s]['label'] = s
 	
 	# get the data to assemble the svg file (editable version)
 	svg_data = get_svgdata(
@@ -58,8 +62,8 @@ if __name__ == "__main__":
 	parser.add_argument('--svg_name', '-o', default = 'temp.svg', metavar = 'temp.svg', help = "The name/path of the output svg.")
 	parser.add_argument('--output_json', '-oj', default = '', metavar = 'svgdata.json', help = "Don't save svg-file, instead save data (info on label coordinates, paths etc.) for creating the svg file in a json file.")
 	parser.add_argument('--add_cofactors_from_sbml', '-cof', metavar='model.xml', nargs='+', help = "Add the omitted cofactors from this sbml (3fbc) model to the graph.")
-	parser.add_argument('--scale', '-s', type = float, nargs='+', default = [20.0, 20.0], metavar= '1.0', help = "Scale up the graph with this factor. Example: -s 10.0 (10 in both x- and y-direction) Example: -s 20 10 (20 in x-direction, 10 in y-direction")
-	parser.add_argument('--padding', type = float, nargs='+', default = [20.0, 20.0], metavar= '0', help = "Extra space (pixels) added to the edges of the svg, e.g. so that all labels are visible in a browser.")
+	parser.add_argument('--scale', '-s', type = float, nargs='+', default = [20.0, 20.0], metavar= '20.0', help = "Scale up the graph with this factor. Example: -s 10.0 (10 in both x- and y-direction) Example: -s 20 10 (20 in x-direction, 10 in y-direction")
+	parser.add_argument('--padding', type = float, nargs='+', default = [20.0, 20.0], metavar= '20', help = "Extra space (pixels) added to the edges of the svg, e.g. so that all labels are visible in a browser.")
 	parser.add_argument('--padding_labels', nargs='+', metavar= '10', help = "Space (pixels) around the text of the labels. Can also accept two terms, for x and y-direction.") 
 	parser.add_argument('--font_file', default = 'C:\Users\User\Documents\Raleway\Raleway-Regular.ttf', metavar = 'C:\Users\User\Documents\Raleway\Raleway-Regular.ttf', help= "The font to be used. Raleway can be downloaded from https://github.com/google/fonts/blob/master/ofl/raleway/Raleway-Regular.ttf")
 	parser.add_argument('--font_size', default = 10.0, metavar = '10.0', help = "Font size of the labels.")
