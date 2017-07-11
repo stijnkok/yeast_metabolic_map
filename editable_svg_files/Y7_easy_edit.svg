@@ -15906,31 +15906,31 @@
   <path
      style="fill:none;stroke:#cccccc;stroke-width:2;stroke-linecap:round;marker-end:url(#substrate)"
      d="m 2105.0076,2799.9999 c 15.3601,-20.712 33.2299,-33.0582 53.4634,-37.5255"
-     id="path_r_0502s_1487_2"
+     id="path_r_0502s_1487_copy_1"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#cccccc;stroke-width:2;stroke-linecap:round;marker-end:url(#substrate)"
      d="m 2105.0076,2799.9999 c 5,-10 0,-15 -10,-15"
-     id="path_r_0502s_1039_2"
+     id="path_r_0502s_1039_copy_1"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#cccccc;stroke-width:2;stroke-linecap:round;marker-end:url(#product)"
      d="m 2105.0076,2799.9999 c -5,10 0,15 10,15"
-     id="path_r_0502s_0803_2"
+     id="path_r_0502s_0803_copy_1"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#cccccc;stroke-width:2;stroke-linecap:round;marker-end:url(#product)"
      d="m 2105.0076,2799.9999 c -5,10 -10,10 -20,10"
-     id="path_r_0502s_1003_2"
+     id="path_r_0502s_1003_copy_1"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#cccccc;stroke-width:2;stroke-linecap:round;marker-end:url(#product)"
      d="m 2105.0076,2799.9999 c -7.0592,12.1343 -10.994,21.2569 -13.8154,35"
-     id="path_r_0502s_0306_2"
+     id="path_r_0502s_0306_copy_1"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
@@ -16459,7 +16459,7 @@
      cy="2799.9998"
      cx="2105.0076"
      r="5"
-     id="r_0502_2"
+     id="r_0502_copy_1"
      style="fill:#999999" />
   <circle
      cy="2939.9998"
@@ -16583,7 +16583,7 @@
      style="fill:#999999" />
   <text
      style="font-size:8px;font-family:Raleway;fill:#000000"
-     id="rval_r_0502_2"
+     id="rval_r_0502_copy_1"
      y="2802.54"
      x="2114.5947">-00e+00</text>
   <text
@@ -16598,7 +16598,7 @@
      x="2048.1912">L-serine</text>
   <text
      style="font-size:10px;font-family:Raleway;fill:#000000"
-     id="s_0803r_0502_2"
+     id="s_0803r_0502_copy_1"
      y="2818.5259"
      x="2124.5884">H2O</text>
   <text
@@ -21805,7 +21805,7 @@
   <path
      style="fill:none;fill-opacity:0;stroke:#cccccc;stroke-width:2;stroke-linecap:round;marker-end:url(#product)"
      d="m 689.99999,524.99999 v 0 c 15,0 15,5 15,10"
-     id="path_r_0811s_0394_2"
+     id="path_r_0811s_0394_copy_1"
      inkscape:connector-curvature="0" />
   <path
      style="fill:none;fill-opacity:0;stroke:#cccccc;stroke-width:2;stroke-linecap:round;marker-end:url(#substrate)"
@@ -21833,7 +21833,7 @@
   <path
      style="fill:none;fill-opacity:0;stroke:#cccccc;stroke-width:2;stroke-linecap:round;marker-end:url(#substrate)"
      d="m 689.99999,524.99999 v 0 c -15,0 -15,5 -15,10"
-     id="path_r_0811s_0434_2"
+     id="path_r_0811s_0434_copy_1"
      inkscape:connector-curvature="0" />
   <path
      style="fill:none;fill-opacity:0;stroke:#cccccc;stroke-width:2;stroke-linecap:round;marker-end:url(#substrate)"
@@ -21876,7 +21876,7 @@
   <path
      style="fill:none;fill-opacity:0;stroke:#cccccc;stroke-width:2;stroke-linecap:round;marker-end:url(#substrate)"
      d="m 689.99999,524.99999 h -114.54"
-     id="path_r_0811s_1538_2"
+     id="path_r_0811s_1538_copy_1"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
@@ -21914,7 +21914,7 @@
   <path
      style="fill:none;fill-opacity:0;stroke:#cccccc;stroke-width:2;stroke-linecap:round;marker-end:url(#product)"
      d="m 689.99999,524.99999 h 115.065"
-     id="path_r_0811s_1559_2"
+     id="path_r_0811s_1559_copy_1"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
@@ -22125,11 +22125,11 @@
      cy="525"
      cx="690"
      r="5"
-     id="r_0811_2"
+     id="r_0811_copy_1"
      style="fill:#999999" />
   <text
      font-size="8"
-     id="rval_r_0811_2"
+     id="rval_r_0811_copy_1"
      y="517"
      x="674"
      style="font-size:8px;font-family:Raleway">-0.0e+00</text>
