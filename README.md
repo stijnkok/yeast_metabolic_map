@@ -38,12 +38,12 @@ Make an svg from "yeast_5_01_model_xml_nucleotide reactions.json"
 
 1) To create the svg-file with metabolic map, use the command:
 
-python modules\json_to_svg.py "json_files\yeast_5_01_model_xml_nucleotide reactions.json" --svg_name editable_svg_files\Y5_nucleotides.svg --scale 20 15 --padding 20 --normalize --add_cofactors_from_sbml models\Y5.xml
+python modules\json_to_svg.py "json_files\yeast_5_01_model_xml_nucleotide reactions.json" --svg_name "editable_svg_files\Y5_nucleotides.svg" --scale 20 15 --normalize --add_cofactors_from_sbml "models\Y5.xml"
 
 A file with the metabolic map called 'Y5_nucleotides.svg' should now be saved in the editable_svg_files directory. This file can be edited in e.g. inkscape.
 
 2) To create a file with annotations, clickable labels and other information on hover that can be used with the visualize.py module, use the command:
 
-python modules\layout_final.py editable_svg_files\Y5_nucleotides.svg models\Y7.xml r_ s_ --svg_name Y5_nucleotides.svg
+python modules\layout_final.py "editable_svg_files\Y5_nucleotides.svg" "models\Y7.xml" r_ s_ --svg_name "Y5_nucleotides.svg"
 
 A file called 'Y5_nucleotides.svg' should now be saved in the metabolic_maps folder and opened in a new tab in your browser.
