@@ -1,6 +1,7 @@
 import cbmpy as cbm
 import json
 import sys
+import os
 import re
 import argparse
 from PIL import ImageFont
@@ -15,6 +16,7 @@ def main(args):
 		data = json.load(json_data)
 	d = read_json_data(data)
 	
+
 	font = ImageFont.truetype(args.font_file, 1000)
 
 	if args.add_cofactors_from_sbml:
@@ -65,7 +67,7 @@ if __name__ == "__main__":
 	parser.add_argument('--scale', '-s', type = float, nargs='+', default = [20.0, 20.0], metavar= '20.0', help = "Scale up the graph with this factor. Example: -s 10.0 (10 in both x- and y-direction) Example: -s 20 10 (20 in x-direction, 10 in y-direction")
 	parser.add_argument('--padding', type = float, nargs='+', default = [20.0, 20.0], metavar= '20', help = "Extra space (pixels) added to the edges of the svg, e.g. so that all labels are visible in a browser.")
 	parser.add_argument('--padding_labels', nargs='+', metavar= '10', help = "Space (pixels) around the text of the labels. Can also accept two terms, for x and y-direction.") 
-	parser.add_argument('--font_file', default = 'C:\Users\User\Documents\Raleway\Raleway-Regular.ttf', metavar = 'C:\Users\User\Documents\Raleway\Raleway-Regular.ttf', help= "The font to be used. Raleway can be downloaded from https://github.com/google/fonts/blob/master/ofl/raleway/Raleway-Regular.ttf")
+	parser.add_argument('--font_file', default = 'fonts/Raleway/Raleway-Regular.ttf', metavar = 'C:\Users\User\Documents\Raleway\Raleway-Regular.ttf', help= "The font to be used. Raleway can be downloaded from https://github.com/google/fonts/blob/master/ofl/raleway/Raleway-Regular.ttf")
 	parser.add_argument('--font_size', default = 10.0, metavar = '10.0', help = "Font size of the labels.")
 	parser.add_argument('--reverse_cof', nargs='+', default = [], metavar = 'R_0001 R_0020 R_0033', help = "List of reaction ids for which the cofactors must be placed in the opposite way to the default (default is substrates top, products bottom).")
 	parser.add_argument('--auto_direction', dest = 'r_direction', action='store_false', help = "Determine the direction (horizontal/vertical) of the arrow through reaction nodes automatically. (default is all reactions vertical)")
