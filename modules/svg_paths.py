@@ -509,13 +509,34 @@ def path_segments_hv(start, end, max_bend, adj):
 	
 def get_paths(edges, nodes, node_type, extra_nodes, pos, label, label_size, pathway, cofactors = None, min_path_length = 10, max_bend = 40, prevent_overlap = True, direction_default = 'v', reverse_cofactor_direction = []):
 	"""
-	edges: list of edges
-	nodes: list of nodes
-	node_type: dictionary of node types ('reaction' or 'species')
-	extra_nodes: dictionary of additional layout nodes for edges (list of [x,y] positions)
-	pos: dictionary with node positions ([x,y] tuples)
-	label: dictionary with node labels
-	label_size: dictionary with node label size ([width, height] tuples)
+	Get svg-paths for the metabolic map.
+	INPUT:
+	'edges': 				a list of edges; i.e. (reaction node, species node) tuples.
+	'nodes': 				a list of nodes. 
+	'node_type': 			a dictionary with node types; keys are nodes and values are 
+							the type of node, being either 'reaction' or 'species'.
+	'extra_nodes':			a dictionary with nodes that are not representative of reactions
+							or species, but help with drawing svg-paths by giving extra 
+							points through which the path must be drawn.
+	'pos':					a dictionary with coordinates of the nodes; keys are nodes and
+							values are (x,y) tuples.
+	'label':				a dictionary with labels; keys are nodes and values are metabolite
+							or reaction names.
+	'label_size': 			a dictionary with node label size; keys are nodes and values are 
+							[width, height] tuples
+	'pathway':				a dictionary with pathways; keys are nodes and values are pathways
+							(if 'cycle' is in the pathway name and the node is on a circle of 
+							nodes in the same pathway, paths will be drawn as arcs instead of
+							bezier curves).
+	'cofactors'				a dictionary with cofactors; keys are reactions and values are species.
+	'min_path_length':		minimal length of paths.
+	'max_bend': 			curvature of the paths.
+	'prevent_overlap':		prevent overlap of paths and labels.
+	'direction_default':	default direction of paths at reaction nodes.
+	'reverse_cofactors':	list of reactions in which cofactors must be placed in opposite order
+	
+	OUTPUT:
+	A dictionary with the svg-paths; keys are edges and values are svg paths (svg path 'd' attribute)	
 	"""
 
 	if direction_default:
@@ -528,9 +549,10 @@ def get_paths(edges, nodes, node_type, extra_nodes, pos, label, label_size, path
 		else:
 			s_nodes.add(n)
 
-	# get circular paths, exclude edges with circular paths
+	# get circular paths, exclude edges with circular paths from further editing
 	arc_paths = {} # svg arcs
 
+	# find cycles
 	cyclic_pathways = set([pw for pw in pathway.values() if 'cycle' in pw.lower()])
 	for pw in cyclic_pathways:
 		circle_nodes = [n for n in nodes if pathway[n] == pw]
@@ -541,7 +563,7 @@ def get_paths(edges, nodes, node_type, extra_nodes, pos, label, label_size, path
 		# get center coordinates of circle
 		cx = sum([pos[n][0] for n in circle_nodes])/len(circle_nodes)
 		cy = sum([pos[n][1] for n in circle_nodes])/len(circle_nodes)
-		# potential egdes
+		
 		# find closest node pairs for each source node
 		sourcenodes = [n for n in circle_nodes if node_type[n]=='reaction']
 		potential_edges = []
@@ -553,10 +575,13 @@ def get_paths(edges, nodes, node_type, extra_nodes, pos, label, label_size, path
 			# get edges with closest nodes
 			potential_edges += [(sn, tn) for tn in sorted_n[1:]][:2]
 
+		# get edges that are part of circle
 		circle_edges = [e for e in edges if e in potential_edges]
+		
+		# get arc paths
 		for e in circle_edges:
-			x0, y0 = pos[e[0]][0], pos[e[0]][1]
-			x, y = pos[e[1]][0], pos[e[1]][1]
+			x0, y0 = pos[e[0]][0], pos[e[0]][1] # reaction node
+			x, y = pos[e[1]][0], pos[e[1]][1]	# species node
 			w, h = label_size[e[1]]
 			r = math.sqrt((x - cx)**2 + (y - cy)**2)
 			# get the 2 intersections of the circle with the rectangular label 'bounding box'
@@ -593,7 +618,7 @@ def get_paths(edges, nodes, node_type, extra_nodes, pos, label, label_size, path
 	if cofactors:
 		for e in edges:
 			if len(cofactors[e[0]])>0:
-				cof_adj[e] = 1.5*min_path_length
+				cof_adj[e] = 1.5*min_path_length # reserve space for cofactors
 	else:
 		cofactors = {}.fromkeys(r_nodes, {})
 
@@ -617,6 +642,7 @@ def get_paths(edges, nodes, node_type, extra_nodes, pos, label, label_size, path
 			s_nodes.add(str(s)+str(e[0]))
 			label_size[str(s)+str(e[0])] = label_size[s]
 			pos[str(s)+str(e[0])] = cofactors[e[0]][s]['pos']
+		
 		# determine curve direction of path at helper nodes
 		for i in range(1, len(p_nodes[e])-1):
 			n = p_nodes[e][i]
@@ -637,7 +663,7 @@ def get_paths(edges, nodes, node_type, extra_nodes, pos, label, label_size, path
 		path_end[e[1]][e[0]] = p_nodes[e][-1]
 
 	# adjust horizontal path ends (no more than 1 on each side of species label)
-	max_hz =1
+	max_hz = 1 # maximum number of horizontal path ends
 	for s in path_end:
 		left = []
 		right = []
@@ -696,9 +722,9 @@ def get_paths(edges, nodes, node_type, extra_nodes, pos, label, label_size, path
 
 		return svg_paths, pos
 	
-	## adjust path/label overlap ## 
+	###############################################
+	########## adjust path/label overlap ########## 
 	
-	changed_direction = []
 	# change path segment basic shape if overlapping with labels
 	print 'checking path/label overlap...'
 	for e in edges:
@@ -714,12 +740,7 @@ def get_paths(edges, nodes, node_type, extra_nodes, pos, label, label_size, path
 					# change j shape to s shape
 					print 'changing path {} shape to prevent {} label overlap...'.format(e, n)
 					direction[e][i+1] = direction[e][i]
-					new_path = True
 					break
-			else:
-				new_path = False
-		
-		changed_direction.append(new_path)
 		
 		# determine new path ends
 		dx = pos[e[1]][0] - p_nodes[e][-2][0]
@@ -728,20 +749,6 @@ def get_paths(edges, nodes, node_type, extra_nodes, pos, label, label_size, path
 
 		# collect path ends for duplicates adjustment
 		path_end[e[1]][e[0]] = p_nodes[e][-1]
-
-	# if not any(changed_direction):
-	# 	# return paths if no overlap found
-	# 	svg_paths = arc_paths
-	# 	for e in edges:
-	# 		p = []
-	# 		for segs in path_segs[e]:
-	# 			p+=segs
-	# 		svg_paths[e] = Path(*p).d()
-	# 	for r in cofactors:
-	# 		for s in cofactors[r]:
-	# 			svg_paths[(r,s)] = cofactors[r][s]['path']
-
-	# 	return svg_paths, pos
 
 
 	# adjust horizontal path ends 

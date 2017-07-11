@@ -5,21 +5,25 @@ import networkx as nx
 from readers import read_json_data
 
 def infodict_to_graph(d, scale = [1,1], padding = [0,0], normalize = False):
-	graph = nx.DiGraph()
+	"""
+	Input  - Dictionary with layout info.
+	Output - networkx.DiGraph object.
+	"""
 
+	## adjust coordinates ##
 	if len(scale)==1:
 		scale.append(scale[0])
 	if len(padding) == 1:
 		padding.append(padding[0])
-	
-	# adjust coordinates
+
+	# get minimum x and maximum y coordinate for normalization
 	min_x = min([p[0] for p in d['pos'].values()])
 	max_y = max([p[1] for p in d['pos'].values()])
 
 	for n, p in d['pos'].items():
 		if normalize:
-			p = (p[0]-min_x, p[1]-max_y) # normalize
-		p = (p[0]*scale[0], p[1]*scale[1]) # scale
+			p = (p[0]-min_x, p[1]-max_y)           # normalize
+		p = (p[0]*scale[0], p[1]*scale[1])         # scale
 		p = (p[0] + padding[0], p[1] - padding[1]) # add padding
 		d['pos'][n] = p
 
@@ -27,13 +31,18 @@ def infodict_to_graph(d, scale = [1,1], padding = [0,0], normalize = False):
 		for i in range(len(d['extra_nodes'][e])):
 			p = d['extra_nodes'][e][i]
 			if normalize:
-				p = (p[0]-min_x, p[1]-max_y) # normalize
-			p = (p[0]*scale[0], p[1]*scale[1]) # scale
+				p = (p[0]-min_x, p[1]-max_y)           # normalize
+			p = (p[0]*scale[0], p[1]*scale[1])         # scale
 			p = (p[0] + padding[0], p[1] - padding[1]) # add padding
 			d['extra_nodes'][e][i] = p
 
+	## make graph ##
+	graph = nx.DiGraph()
+
+	# add edges and nodes
 	for e in d['edges']:
 		if d['edge_type'][e] == 'product':
+			# include helper/control nodes
 			hn_ids = ['hn'+str(i)+str(e) for i in range(len(d['extra_nodes'][e]))]
 			for i in range(len(hn_ids)):
 				d['pos'][hn_ids[i]] = d['extra_nodes'][e][i]
@@ -41,17 +50,22 @@ def infodict_to_graph(d, scale = [1,1], padding = [0,0], normalize = False):
 				d['node_type'][hn_ids[i]] = 'ctrl'
 				graph.add_node(hn_ids[i])
 			node_id_lst = [e[0]] + hn_ids + [e[1]]
+			# add edges to graph (this also adds the nodes)
 			for i in range(len(node_id_lst)-1):
 				graph.add_edge(node_id_lst[i], node_id_lst[i+1])
 		else:
+			# include helper/control nodes
 			hn_ids = ['hn'+str(i)+str(e) for i in range(len(d['extra_nodes'][e]))]
 			for i in range(len(hn_ids)):
 				d['pos'][hn_ids[i]] = d['extra_nodes'][e][i]
 				d['label'][hn_ids[i]] = 'ctrl'
 				d['node_type'][hn_ids[i]] = 'ctrl'
 			node_id_lst = [e[1]] + hn_ids[::-1] + [e[0]]
+			# add edges to graph (this also adds the nodes)
 			for i in range(len(node_id_lst)-1):
 				graph.add_edge(node_id_lst[i], node_id_lst[i+1])
+
+	# add node attributes
 	for n in graph.nodes():
 		graph.node[n]['x'] = d['pos'][n][0]
 		graph.node[n]['y'] = d['pos'][n][1]
@@ -64,6 +78,7 @@ def infodict_to_graph(d, scale = [1,1], padding = [0,0], normalize = False):
 			graph.node[n]['size'] = 1.5
 		else:
 			graph.node[n]['size'] = 2.5
+	
 	return graph
 
 def main(args):
@@ -71,10 +86,7 @@ def main(args):
 	with open(file_name) as json_data:
 		data = json.load(json_data)
 	d = read_json_data(data)
-	sc = args.scale
-	pd = args.padding
-	nm = args.normalize
-	graph = infodict_to_graph(d, sc, pd, nm)
+	graph = infodict_to_graph(d, args.scale, args.padding, args.normalize)
 	nx.write_graphml(graph, args.graph_name)
 
 if __name__ == "__main__":

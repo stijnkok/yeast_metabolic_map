@@ -1,7 +1,6 @@
 import cbmpy as cbm
 import json
 import sys
-import os
 import re
 import argparse
 from PIL import ImageFont
@@ -9,16 +8,17 @@ from readers import read_json_data, get_cofactors_from_sbml
 from svg_assembly import get_svgdata, get_svgdoc
 
 def main(args):
-	
-	file_name = ' '.join(args.json_file)
+
 	# get file with layout data
+	file_name = ' '.join(args.json_file)
 	with open(file_name) as json_data:
 		data = json.load(json_data)
-	d = read_json_data(data)
+	d = read_json_data(data) # layout data
 	
-
+	# get font
 	font = ImageFont.truetype(args.font_file, 1000)
 
+	# add cofactors
 	if args.add_cofactors_from_sbml:
 		sbml_file = ' '.join(args.add_cofactors_from_sbml)
 		cofactors = get_cofactors_from_sbml(d, sbml_file)
@@ -27,7 +27,8 @@ def main(args):
 				d['edge_type'][(r,s)]=cofactors[r][s]['role']
 	else:
 		cofactors = None
-	
+
+	# change labels to ids	
 	if args.ids_as_label:
 		for n in d['label']:
 			d['label'][n] = re.sub('_copy_[0-9]+', '', n)
@@ -50,6 +51,7 @@ def main(args):
 		reverse_cof = args.reverse_cof)
 	
 	if args.output_json:
+		# save svg data in json-format
 		with open(args.output_json, 'wb') as f:
 			json.dump(svg_data, f)
 	else:
@@ -78,8 +80,6 @@ if __name__ == "__main__":
 	parser.set_defaults(r_direction = 'vertical')
 	parser.set_defaults(normalize = False)
 	parser.set_defaults(overlap = False)
-
 	args = parser.parse_args()
-	# args = parser.parse_args(['yeast_5_01_model_xml_nucleotide reactions.json'])
 	parser.print_help()
 	main(args)

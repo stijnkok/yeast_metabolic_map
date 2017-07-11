@@ -6,6 +6,7 @@ from svg_assembly import get_svgdata, get_svgdoc
 from readers import read_graph, get_cofactors_from_sbml
 
 def compatible_graph(graph):
+	""" Check node attributes """
 	compatible = True
 	unknown_node_types = set()
 	try:
@@ -14,10 +15,19 @@ def compatible_graph(graph):
 			graph.node[n]['y']
 			if not graph.node[n]['node_type'] in ['reaction', 'species', 'ctrl']:
 				unknown_node_types.add(graph.node[n]['node_type'])
+			if graph.node[n]['node_type'] in ['reaction', 'species']:
+				graph.node[n]['pathway']
+				graph.node[n]['label']
 	except KeyError as e:
 		print 'KeyError:', e
 		if e.args[0]=='node_type':
-			print "please add 'node_type' attribute to the nodes in graph (set to 'reaction', 'species' or 'ctrl')"
+			print "Incompatible graph. Please add 'node_type' attribute to the nodes in graph (set to 'reaction', 'species' or 'ctrl')"
+		elif e.args[0]=='pathway':
+			print "Incompatible graph. Please add 'pathway' attribute to the nodes in graph"
+		elif e.args[0]=='label':
+			print "Incompatible graph. Please add 'label' attribute to the nodes in graph"
+		else:
+			print "Incompatible graph. Please add 'x' and 'y' attribute to the nodes."
 		compatible = False
 
 	if len(unknown_node_types)>0:
@@ -29,7 +39,8 @@ def compatible_graph(graph):
 def main(args):
 	
 	file_name = ' '.join(args.graph_file)
-	# get file with layout data
+	
+	# read graph file to networkx.DiGraph object
 	ext = file_name.split('.')[-1]
 	if ext == 'graphml':
 		graph = nx.read_graphml(file_name)
@@ -46,7 +57,7 @@ def main(args):
 	elif ext == 'yaml':
 		graph = nx.read_yaml(file_name)
 	else:
-		print "Graph file format not supported. Supported fileformats: graphml, gexf, gml, g6, s6, gpickle, yaml"
+		print "Graph file format not supported. Supported fileformats: graphml (recommended), gexf, gml, g6, s6, gpickle, yaml"
 
 	for n in graph.nodes():
 		# from nicholas' tulip output
@@ -66,10 +77,13 @@ def main(args):
 			graph.node[n]['label'] = n
 
 	if compatible_graph(graph):
+		# get dictionary with layout info
 		d = read_graph(graph)
 
+		# get font
 		font = ImageFont.truetype(args.font_file, 1000)
 
+		# add cofactors
 		if args.add_cofactors_from_sbml:
 			sbml_file = ' '.join(args.add_cofactors_from_sbml)
 			cofactors = get_cofactors_from_sbml(d, sbml_file)
@@ -79,6 +93,7 @@ def main(args):
 		else:
 			cofactors = None
 		
+		# get the data to assemble the svg file (editable version)
 		svg_data = get_svgdata(
 			d= d,
 			font=font, 
@@ -92,6 +107,7 @@ def main(args):
 			cofactors = cofactors,
 			reverse_cof = args.reverse_cof)
 		
+		# assemble svg file and save (editable version)
 		doc = get_svgdoc(**svg_data)
 		doc.save(args.svg_name)
 		print 'output svg saved in', args.svg_name
