@@ -7,7 +7,25 @@ import cbmpy as cbm
 
 def read_json_data(data):
 	"""
-	unpack & repack json dictionary from Nicholas's output
+	Input  - a json dictionary from Nicholas's output.
+	Output - a dictionary with layout information. The keys are:
+	'edges': 		a list of edges; i.e. (reaction node, species node) tuples.
+	'nodes': 		a list of nodes. 
+	'node_type': 	a dictionary with node types; keys are nodes and values are 
+					the type of node, being either 'reaction' or 'species'.
+	'edge_type':	a dictionary with edge types; keys are edges and values are
+					the type of edge, being either 'substrate' or 'product'.
+	'extra_nodes':	a dictionary with nodes that are not representative of reactions
+					or species, but help with drawing svg-paths by giving extra 
+					points through which the path must be drawn.
+	'pos':			a dictionary with coordinates of the nodes; keys are nodes and
+					values are (x,y) tuples.
+	'label':		a dictionary with labels; keys are nodes and values are metabolite
+					or reaction names.
+	'pathway':		a dictionary with pathways; keys are nodes and values are pathways
+					(if 'cycle' is in the pathway name and the node is on a circle of 
+					nodes in the same pathway, paths will be drawn as arcs instead of
+					bezier curves).
 	"""
 
 	graph = data['graph']
@@ -43,10 +61,13 @@ def read_json_data(data):
 	
 	# dictionary with edge types
 	e_type = {}
+
+	# dictionary with nodes that are for layout purposes only
 	extra_nodes = {}
+
 	for i in range(len(graph['edges'])):
 		e = graph['edges'][i]
-		# convert integers to strings, so i can use them directly as a key later.
+		# convert integers to strings, so they can be used as a key later.
 		n0 = str(e[0])
 		n1 = str(e[1])
 
@@ -77,6 +98,7 @@ def read_json_data(data):
 	cmod_id = {}
 	copies = {}
 	for n, lab in graph['properties']['viewLabel']['nodesValues'].items():
+		# if cmod id is already in use, add copy number to id
 		if lab in copies:
 			copies[lab].append(n)
 			lab += '_copy_'+str(len(copies[lab])-1)
@@ -99,15 +121,39 @@ def read_json_data(data):
 			d['pathway'][new_n] = pathway[n]
 		except KeyError:
 			d['pathway'][new_n] = "Undefined"
+	
 	for e in edges:
 		new_e = (cmod_id[e[0]], cmod_id[e[1]])
 		d['edges'].append(new_e)
 		d['edge_type'][new_e] = e_type[e]
 		d['extra_nodes'][new_e] = extra_nodes[e]
+	
 	return d
 
 
 def read_graph(graph):
+	"""
+	Input  - a networkx.DiGraph object.
+	Output - a dictionary with layout information. The keys are:
+	'edges': 		a list of edges; i.e. (reaction node, species node) tuples.
+	'nodes': 		a list of nodes. 
+	'node_type': 	a dictionary with node types; keys are nodes and values are 
+					the type of node, being either 'reaction' or 'species'.
+	'edge_type':	a dictionary with edge types; keys are edges and values are
+					the type of edge, being either 'substrate' or 'product'.
+	'extra_nodes':	a dictionary with nodes that are not representative of reactions
+					or species, but help with drawing svg-paths by giving extra 
+					points through which the path must be drawn.
+	'pos':			a dictionary with coordinates of the nodes; keys are nodes and
+					values are (x,y) tuples.
+	'label':		a dictionary with labels; keys are nodes and values are metabolite
+					or reaction names.
+	'pathway':		a dictionary with pathways; keys are nodes and values are pathways
+					(if 'cycle' is in the pathway name and the node is on a circle of 
+					nodes in the same pathway, paths will be drawn as arcs instead of
+					bezier curves).
+	"""
+
 	label = {}
 	node_type = {}
 	edge_type = {}
@@ -159,6 +205,17 @@ def read_graph(graph):
 
 
 def get_cofactors_from_sbml(d, sbml_file):
+	"""
+	Compare layout information dictionary with sbml model.
+	Input  - Dictionary with layout information, sbml model.
+	Output - Dictionary with cofactors; keys are reaction nodes
+			 and values are a dictionaries with the species that are
+			 substrates/products of that reaction according to the 
+			 model, but are not listed in the input dictionary as such.
+			 The dictionaries have keys 'label' (value is species name) and 'role'
+			 (value is either 'substrate' or 'product').
+	"""
+	# change labels of some cofactors (for yeast consensus model)
 	alt_lab = {'carbon dioxide [cytoplasm]': 'CO2',
 			'phosphate [cytoplasm]': 'Pi',
 			'diphosphate [cytoplasm]': 'PPi',
@@ -166,12 +223,17 @@ def get_cofactors_from_sbml(d, sbml_file):
 
 	model = cbm.CBRead.readSBML3FBC(sbml_file)
 
+	# get reagents according to the dictionary
 	reagents = {}
 	for e in d['edges']: reagents[e[0]] = set()
 	for e in d['edges']: reagents[e[0]].add(re.sub('_copy_[0-9]+', '', e[1]))
 
+	# dictionary with cofactors
 	cofactors = {}
 	for r in reagents: cofactors[r] = {}
+
+	# compare reagents from dictionary to the model, 
+	# output ommitted reagents in cofactors dictionary.
 	for r in reagents:
 		R = model.getReaction(re.sub('_copy_[0-9]+', '', r))
 		cof_ids = set(R.getSpeciesIds()).difference(reagents[r])
