@@ -4,8 +4,33 @@ import argparse
 import networkx as nx
 from readers import read_json_data
 
-def infodict_to_graph(d):
+def infodict_to_graph(d, scale = [1,1], padding = [0,0], normalize = False):
 	graph = nx.DiGraph()
+
+	if len(scale)==1:
+		scale.append(scale[0])
+	if len(padding) == 1:
+		padding.append(padding[0])
+	
+	# adjust coordinates
+	min_x = min([p[0] for p in d['pos'].values()])
+	max_y = max([p[1] for p in d['pos'].values()])
+
+	for n, p in d['pos'].items():
+		if normalize:
+			p = (p[0]-min_x, p[1]-max_y) # normalize
+		p = (p[0]*scale[0], p[1]*scale[1]) # scale
+		p = (p[0] + padding[0], p[1] - padding[1]) # add padding
+		d['pos'][n] = p
+
+	for e in d['extra_nodes']:
+		for i in range(len(d['extra_nodes'][e])):
+			p = d['extra_nodes'][e][i]
+			if normalize:
+				p = (p[0]-min_x, p[1]-max_y) # normalize
+			p = (p[0]*scale[0], p[1]*scale[1]) # scale
+			p = (p[0] + padding[0], p[1] - padding[1]) # add padding
+			d['extra_nodes'][e][i] = p
 
 	for e in d['edges']:
 		if d['edge_type'][e] == 'product':
@@ -46,12 +71,18 @@ def main(args):
 	with open(file_name) as json_data:
 		data = json.load(json_data)
 	d = read_json_data(data)
-	graph = infodict_to_graph(d)
+	sc = args.scale
+	pd = args.padding
+	nm = args.normalize
+	graph = infodict_to_graph(d, sc, pd, nm)
 	nx.write_graphml(graph, args.graph_name)
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
 	parser.add_argument('json_file', metavar= 'file_name.json', nargs= '+')
 	parser.add_argument('--graph_name', '-o', default = 'temp.graphml')
+	parser.add_argument('--scale', '-s', type = float, nargs='+', default = [20.0, 20.0], metavar= '20.0', help = "Scale up the graph with this factor. Example: -s 10.0 (10 in both x- and y-direction) Example: -s 20 10 (20 in x-direction, 10 in y-direction")
+	parser.add_argument('--padding', type = float, nargs='+', default = [20.0, 20.0], metavar= '20', help = "Extra space (pixels) added to the edges of the graph, e.g. so that all labels are visible in a browser when converted to svg.")
+	parser.add_argument('--normalize', dest = 'normalize', action='store_true', help = "Translate all coordinates to positive coordinates, so if converted to svg, it can be viewed in a browser.") 
 	args = parser.parse_args()
 	main(args)
