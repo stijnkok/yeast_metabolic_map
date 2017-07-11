@@ -2,11 +2,11 @@ About
 -----
 *json ---> svg (editable) ---> svg (extra features)*
 
-With this module one can take the json-file with the metabolic network layout info and make a pretty svg. See folder 'metabolic_maps' for examples. The svg can, if needed, be edited in Inkscape. The (edited) svg can then be turned into an svg-file with data on hover when viewed in a browser.
+With this module one can take the json-file with the metabolic network layout info and make a pretty svg. See folder 'metabolic_maps' for examples. The svg can, if needed, be edited in an svg-editor (e.g. Inkscape). The (edited) svg can then be turned into an svg-file with data on hover when viewed in a browser.
 
 *json ---> graphml (editable) ---> svg (editable) ---> svg (extra features)*
 
-If the graph in the json-file is not to your satisfaction to start with, one can also first turn the layout info from the json-file to a graphml-file, edit the graph, and turn the graphml-file into an svg.
+If the graph in the json-file is not to your satisfaction to start with, one can also first turn the layout info from the json-file to a graphml-file, edit the graph (e.g. with Gephi), and turn the graphml-file into an svg.
 
 Use in command line:
 -------------------
@@ -47,3 +47,30 @@ A file with the metabolic map called 'Y5_nucleotides.svg' should now be saved in
 python modules\layout_final.py "editable_svg_files\Y5_nucleotides.svg" "models\Y7.xml" r_ s_ --svg_name "Y5_nucleotides.svg"
 
 A file called 'Y5_nucleotides.svg' should now be saved in the metabolic_maps folder and opened in a new tab in your browser.
+
+Editing SVG-files
+-----------------
+A good svg editor is Inkscape: https://inkscape.org/en/download/
+
+NOTES/ISSUES: 
+1) when copy/pasting svg-elements in Inkscape, make sure the ids are unique and still compatible. The formats are:
+
+paths: 'path_ReactionIDSpeciesID'
+
+reaction nodes: 'ReactionID' or 'ReactionID_copy_1'
+
+species labels: 'SpeciesID' or 'SpeciesID_copy_1'
+
+cofactor labels: 'SpeciesIDReactionID'
+
+reaction value placeholders: 'rval_ReactionID'
+
+2) when copy/pasting svg-paths in Inkscape, the name of the marker will be changed (e.g. from 'substrate' to 'substrate-2'). This needs to be changed back to the original marker name, otherwise markers won't be visible when converting the svg to the svg with extra features.
+
+Editing graph-files
+-------------------
+A good graph editor is Gephi: https://gephi.org/
+
+NOTES/ISSUES:
+
+The graphml format is recommended. Make sure the nodes have the 'label', 'node_type' and 'pathway' attribute. Converting to svg works best if the nodes are on a grid, use the 'snap_to_grid.py' module for this.
